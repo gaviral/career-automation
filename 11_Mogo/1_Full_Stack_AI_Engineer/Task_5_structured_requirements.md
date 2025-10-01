@@ -1,0 +1,124 @@
+- Role: Full Stack AI Engineer
+- Team: Product-minded engineering team
+- Company Context: AI-native fintech platform
+- Company Context: Canadian consumer finance market
+- Company Context: Value-investing principles with cutting-edge technology
+- Skills: Build LLM-native workflows
+- Skills: AI-first platform evolution
+- Skills: Backend systems development
+- Skills: LLM agent orchestration
+- Skills: Autonomous features development
+- Skills: Adaptive features development
+- Skills: Self-optimizing features development
+- Skills: Deploy LLM-powered production systems
+- Skills: Maintain production systems with SLAs
+- Skills: Implement observability for AI systems
+- Skills: Create fallback strategies for AI services
+- Skills: Focus on scalability for AI services
+- Skills: Optimize latency for AI systems
+- Skills: Ensure throughput for AI services
+- Skills: Maintain reliability of AI systems
+- Skills: Deliver business value through AI services
+- Skills: Design agent-based flows
+- Skills: Ship agent-based flows for onboarding
+- Skills: Ship agent-based flows for support
+- Skills: Ship agent-based flows for credit decisioning
+- Skills: Ship agent-based flows for payments
+- Skills: Build self-serve credit experiences
+- Skills: Improve decisioning through intelligence
+- Skills: Enhance repayments through AI
+- Skills: Personalize experiences through intelligence
+- Skills: Cross-functional collaboration with Product team
+- Skills: Cross-functional collaboration with Design team
+- Skills: Cross-functional collaboration with Compliance team
+- Skills: Ensure flows drive real outcomes
+- Skills: Align with regulatory standards
+- Skills: Integrate OpenAI for intelligent experiences
+- Skills: Integrate Claude for intelligent experiences
+- Skills: Integrate LangChain for intelligent experiences
+- Skills: Build LLM-powered education tools
+- Skills: Develop conversational interfaces
+- Skills: Guide users through investing decisions
+- Skills: Guide users through credit decisions
+- Skills: Participate in architectural design discussions
+- Skills: Secure LLM integration
+- Skills: Efficient LLM integration
+- Skills: Stay current with AI advancements
+- Skills: Evaluate emerging AI tools
+- Skills: Evaluate emerging AI frameworks
+- Skills: Develop backend APIs
+- Skills: Develop microservices in Node.js/TypeScript
+- Skills: Build intelligent frontends in React
+- Skills: Build intelligent frontends in React Native
+- Skills: Support personalized AI-powered finance journeys
+- Skills: Champion TDD practices
+- Skills: Champion CI/CD practices
+- Skills: Champion AI-driven testing
+- Skills: Replace manual operations with AI-driven systems
+- Skills: Enable autonomous system actions
+- Skills: Create lean fintech operations
+- Skills: Create scalable fintech operations
+- Skills: Create self-managing fintech operations
+- Skills: Architect continuous learning systems
+- Skills: Implement system observability
+- Skills: Monitor AI performance
+- Skills: Define AI performance metrics
+- Skills: Assess model behavior
+- Skills: Measure user impact of AI systems
+- Skills: Support smarter lending platform
+- Skills: Support value-investing experience
+- Skills: Participate in code reviews
+- Skills: Contribute to technical excellence culture
+- Skills: Mentor peers in AI-native approaches
+- Skills: Improve scalable development standards
+- Skills: Improve intelligent development standards
+- Skills: 4+ years experience as full stack engineer
+- Skills: 4+ years experience as backend engineer
+- Skills: Node.js expertise
+- Skills: TypeScript expertise
+- Skills: MongoDB/MySQL expertise
+- Skills: LLM-based application development
+- Skills: OpenAI integration experience
+- Skills: Claude integration experience
+- Skills: LangChain integration experience
+- Skills: Prompt chaining workflow experience
+- Skills: Embeddings workflow experience
+- Skills: RAG workflow experience
+- Skills: Vector search workflow experience
+- Skills: React familiarity
+- Skills: React Native familiarity
+- Skills: Build intelligent frontends
+- Skills: LLM inference optimization experience
+- Skills: Training pipeline optimization experience
+- Skills: Infrastructure-as-code experience
+- Skills: Cloud-native tooling experience
+- Skills: Docker experience
+- Skills: Terraform experience
+- Skills: AWS Lambda experience
+- Skills: CloudWatch experience
+- Skills: AWS CDK experience
+- Skills: Batch processing proficiency
+- Skills: System design proficiency
+- Skills: Test-driven development proficiency
+- Skills: Python exposure for AI scripting
+- Skills: LangChain workflow experience with Python
+- Skills: Ruby experience
+- Skills: Event-driven systems experience
+- Skills: RabbitMQ experience
+- Skills: SQS experience
+- Skills: Serverless AWS experience
+- Skills: Deep curiosity about AI landscape
+- Skills: Stay on frontier of AI tools
+- Skills: Stay on frontier of AI techniques
+- Skills: Mentoring mindset
+- Skills: Provide thoughtful feedback
+- Skills: Promote shared learning
+- Skills: Technical clarity
+- Skills: AI-as-foundation philosophy
+- Skills: Fast iteration approach
+- Skills: Focus on 10x impact
+- Skills: Outcome ownership
+- Skills: Growth mindset
+- Skills: Builder's DNA
+- Skills: AI system rethinking
+- Skills: Intelligence-centered system design

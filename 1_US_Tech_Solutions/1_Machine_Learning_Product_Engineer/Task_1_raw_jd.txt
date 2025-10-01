@@ -1,0 +1,45 @@
+Immediate Remote Need for an Machine Learning Product Engineer:: 6 months contract (with possible extension)
+Hi,
+I found your candidature on LinkedIn and was wondering if you are currently exploring new fulltime opportunities
+
+Job Description:
+Title: Machine Learning Product Engineer
+This job is fully remote
+Duration: 6 months contract (with possible extension)
+Schedule: Mon-Fri (8am-5pm CST)
+
+The Investments Gen AI Team pioneers’ transformative Generative AI innovations by harnessing AI to tackle company’s Investment's most complex challenges with an interdisciplinary, forward-thinking approach. As ML Engineer within the team you will:
+Work in a highly talented diverse team. 
+Be encouraged to continuously learn new skills, technologies, and tools. 
+lead the effort in taking AI/ML solutions from proof-of-concept to production-ready state. 
+
+
+Skills:
+Deep understanding of machine learning fundamentals and ability to apply them in developing and implementing AI/ML solutions. 
+Experience with GenAI technologies and techniques (e.g., RAG, fine-tuning, vector stores, Agentic frameworks, Prompt Flows). 
+Solid grasp of software development principles, including design patterns, testing, and version control such as Git. 
+Comfortable with hands-on involvement in AI/ML experimentation and model development. 
+Proficiency in Python 
+Proficiency in cloud technologies (Azure/AWS) 
+Development experience with Java Spring boot, React JS preferrable to built end-to-end solution 
+Excellent communicator with both technical and non-technical team members. 
+
+Experience:
+Minimum of 3 years of experience working on AI/ML projects, with a focus on productizing AI/ML solutions. 
+We also have some desirable criteria. 
+
+Preferred:
+Solid understanding of agile methodologies. 
+Experience with Kubernetes. 
+Experience in fine tuning LLMs, Advanced RAG, Agentic frameworks. 
+Proficiency working with Azure fabric. 
+
+If interested on the below role please let me know the best time to connect.
+
+Best Regards, 
+Nil Mukherjee
+Team Lead- Recruitment
+US Tech Solutions
+Jersey City, New Jersey
+Email: nil@ustechsolutionsinc.com
+

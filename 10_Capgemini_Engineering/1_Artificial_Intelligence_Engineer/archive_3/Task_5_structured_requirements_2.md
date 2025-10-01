@@ -1,0 +1,30 @@
+# Structured Job Requirements
+
+- Role: Agentic AI Developer
+- Team: Advanced AI engineering team  
+- Company Context: Leading food delivery company
+- Core Technology Stack:
+  - LangChain
+  - CrewAI
+  - Google's Agent Development Kit
+  - Autogen
+  - Python
+  - SQL
+- Key Responsibilities:
+  - Design and implement agentic workflows
+  - Develop Python modules for agent communication, orchestration, task execution
+  - Integrate natural language interfaces with backend data layers to enable conversational chart generation
+  - Collaborate with data visualization teams to support dynamic chart rendering based on agent outputs
+  - Optimize agent performance, reliability, scalability across various use cases
+  - Conduct prompt engineering and fine-tuning to improve agent understanding and response accuracy
+  - Stay current with advancements in multi-agent systems and contribute to platform innovation
+- Required Skills:
+  - Advanced Python proficiency for building scalable, modular AI systems
+  - Strong hands-on experience with LangChain, CrewAI, Google's Agent Development Kit
+  - Ability to architect and deploy agentic solutions in production environments
+  - Experience in crafting and refining prompts for agentic systems to improve output quality
+  - Ability to connect agents with external APIs and services for data retrieval and processing
+  - Good SQL knowledge to interact with Data lakes, Data warehouse
+- Preferred Skills:
+  - Intermediate to advanced understanding of NLP techniques for intent recognition and query parsing
+  - Familiarity with charting libraries (Plotly, D3.js, Matplotlib) and visualization best practices

@@ -1,0 +1,935 @@
+{
+  "todo": [
+    "Improve all project names"
+  ],
+  "_metadata": {
+    "end_goals_and_objectives": {
+      "primary_purpose": "Enable creation of tailored resumes for specific job descriptions",
+      "core_functionality": "Comprehensive database of all personal projects, work projects, and career experiences",
+      "strategic_value": "Highlight and present the most relevant experiences for each job application",
+      "automation_goal": "Facilitate dynamic resume generation based on job-specific requirements",
+      "career_optimization": "Maximize job application success through targeted experience presentation"
+    },
+    "database_maintenance_rules": [
+      "HIGHEST PRIORITY: Work project details and personal project details must be in point form",
+      "HIGHEST PRIORITY: Retain all information when modifying project details unless explicitly asked to remove specific information",
+      "SECOND HIGHEST PRIORITY: Use minimum number of tokens to convey information",
+      "THIRD HIGHEST PRIORITY: Keep end goals and objectives in mind when adding or modifying any content",
+      "JOB PROCESSING: When processing job descriptions, map required technologies to technology_categories to identify equivalent skills and create appropriate job_variations",
+      "TECHNOLOGY MAPPING: Add new technologies to appropriate categories when encountered in job descriptions or project work"
+    ],
+    "interaction_guidelines": [
+      "AUTOMATIC TECHNOLOGY CAPTURE: When user mentions any technology, tool, or framework, automatically add it to appropriate technology_categories",
+      "INTELLIGENT CATEGORIZATION: Place user-provided information in appropriate sections (context vs project_details) based on content nature",
+      "CROSS-PROJECT RELATIONSHIPS: Capture and document connections between related projects in context sections",
+      "HUMAN-TO-STRUCTURED TRANSLATION: Convert natural human descriptions into structured, organized database entries",
+      "RETROACTIVE GUIDELINE APPLICATION: Apply newly established guidelines to previously provided information",
+      "META-GUIDELINE CAPTURE: When user establishes new processes or guidelines, automatically incorporate them into these interaction_guidelines",
+      "ULTRA-DEEP THINKING APPLICATION: Apply enhanced rigor, multi-angle verification, and systematic analysis for complex tasks",
+      "PROJECT ENHANCEMENT METHODOLOGY: For comprehensive project gap analysis, refer to docs/PROJECT_ENHANCEMENT_METHODOLOGY.md for systematic interactive enhancement process"
+    ],
+    "schema_legend": {
+      "context": "Background information that may or may not appear in final resume. Used for comprehensive understanding but not necessarily in STARI_statements.",
+      "project_details": "Specific work performed that directly translates to resume content and STARI_statements.",
+      "STARI_statements": "Polished resume bullets derived from project_details and context using STARI methodology.",
+      "job_variations": "Job-specific tailored versions of STARI_statements for targeted applications."
+    },
+    "STARI_methodology": {
+      "definition": "STARI = Situation, Task, Action, Result, Impact",
+      "priority_order": [
+        "Impact (highest priority - quantifiable business/technical outcomes)",
+        "Result (second priority - measurable achievements)",
+        "Action (third priority - specific work performed)",
+        "Task (optional - what needed to be done)",
+        "Situation (optional - background context)"
+      ],
+      "focus": "Emphasize Impact and Result components. Task and Situation are somewhat optional and should be included only when they add significant value to understanding the achievement."
+    },
+    "technology_categories": {
+      "infrastructure_as_code": ["AWS CDK", "CloudFormation"],
+      "serverless_compute": ["AWS Lambda"],
+      "data_query_engines": ["AWS Athena"],
+      "container_orchestration": ["ECS"],
+      "ci_cd_platforms": ["Azure DevOps", "CI/CD"],
+      "version_control": ["Git"],
+      "cloud_storage": ["AWS S3"],
+      "message_queuing": ["AWS SNS", "AWS SQS"],
+      "workflow_orchestration": ["AWS Step Functions"],
+      "retry_mechanisms": ["Exponential Backoff"],
+      "logging_monitoring": ["CloudWatch Logging"],
+      "environment_management": ["Multi-Stage Deployment", "Alpha/Beta/Gamma/Prod Stages"],
+      "operational_readiness": ["ORR", "Operational Readiness Review", "Team-wide Activities"],
+      "ab_testing": ["A/B Testing", "Experimentation", "Statistical Testing"],
+      "frontend_builder_tools": ["Builder Experience", "Page Builder", "Store Builder"],
+      "data_cleanup": ["Data Cleanup", "Technical Debt Resolution", "Backlog Management"],
+      "business_reporting": ["QBR", "MBR", "Quarterly Business Review", "Monthly Business Review", "Business Reports"],
+      "data_validation": ["Data Validation", "Data Verification", "Data Quality Assurance"],
+      "stakeholder_management": ["Stakeholder Management", "Senior Product Managers", "Cross-team Leadership"],
+      "multi_agent_systems": ["Multi-Agent Systems", "Agent Personas", "Adversarial Simulation"],
+      "health_informatics": ["Health Informatics", "Public Health Communications", "Medical Research"],
+      "nlp_research": ["NLP Research", "Claim Extraction", "Risk Scoring", "Misinterpretation Analysis"],
+      "evidence_validation": ["Evidence Validation", "Citation Verification", "WHO", "CDC", "Cochrane"],
+      "content_generation": ["Prebunk Generation", "FAQ Generation", "Countermeasure Studio"],
+      "research_metrics": ["Misinterpretability@k", "Research Metrics", "Evaluation Rubrics"],
+      "web_frameworks_advanced": ["FastAPI", "Uvicorn", "Jinja2", "Web Interface"],
+      "async_programming": ["Async/Await", "AsyncOpenAI", "Nest-Asyncio", "Concurrent Processing"],
+      "production_systems": ["Production-Ready Prototype", "Test Suite", "Performance Monitoring", "Logging"],
+      "health_communication": ["Health Communication", "Misinformation Prevention", "Public Health", "Risk Assessment"],
+      "chat_interfaces": ["Slack Integration", "Chat Interface", "Internal Communication", "Team Collaboration"],
+      "model_experimentation": ["Claude Models", "Fine-tuning", "Ollama", "Model Comparison", "Ensemble Methods"],
+      "prompt_engineering": ["Prompt Engineering", "Model-Agnostic Architecture", "Response Optimization"],
+      "hierarchical_data": ["JSON Tree", "Hierarchical Organization", "Topic Labeling", "Data Traversal"],
+      "documentation_automation": ["Documentation Gap Identification", "SME Integration", "Automated Documentation"],
+      "ticketing_integration": ["Ticketing System Integration", "Backlog Automation", "Workflow Integration"],
+      "ml_frameworks": ["LangChain", "OpenAI Agents Python", "LangSmith", "Experiment Tracking"],
+      "model_comparison": ["Model Comparison", "Prompt Comparison", "Task Categorization", "Dynamic Experimentation"],
+      "monitoring_observability": ["AWS X-Ray", "AWS CloudWatch"],
+      "programming_languages": ["Python", "TypeScript", "Kotlin", "C#", "SQL"],
+      "web_frameworks": ["React", "Node.js"],
+      "machine_learning_frameworks": ["PyTorch"],
+      "cloud_ml_services": ["AWS SageMaker"],
+      "databases": ["DynamoDB", "Cosmos DB"],
+      "data_processing": ["AWS Glue", "ML Pipelines"],
+      "containerization": ["Docker"],
+      "api_technologies": ["APIs"],
+      "testing_frameworks": [],
+      "performance_monitoring": ["Amazon CodeGuru Profiler", "Performance Monitoring", "Performance Analysis"],
+      "development_tools": ["Unity3D", "Unity"],
+      "operating_systems": ["Windows", "macOS", "Linux"],
+      "package_managers": ["Chocolatey"],
+      "ar_vr_technologies": ["Unity3D", "AR", "VR", "Mixed Reality"],
+      "business_intelligence": ["Business Intelligence"],
+      "data_formats": ["Parquet"],
+      "data_visualization": ["Seaborn"],
+      "exploratory_data_analysis": ["EDA"],
+      "regression_modeling": ["Regression Models"],
+      "natural_language_processing": ["NLP"],
+      "automation_scripting": ["Automation Scripts", "Automation", "Scripting"],
+      "devops_tools": ["DevOps"],
+      "build_systems": ["Build Systems"],
+      "deployment_automation": ["Deployment Automation"],
+      "cloud_platforms": ["AWS", "Azure", "Firebase"],
+      "mobile_development": ["iOS"],
+      "data_lake_technologies": ["Data Lake"],
+      "time_series_analysis": ["Time-Series", "TSFresh", "Time Series Analysis"],
+      "cross_platform_development": ["Cross-Platform"],
+      "process_optimization": ["Process Optimization"],
+      "environment_setup": ["Environment Setup"],
+      "feature_engineering": ["Feature Engineering", "TSFresh"],
+      "embeddings_rag": ["Embeddings", "RAG", "LLM"],
+      "mlops": ["MLOps"],
+      "serverless_architecture": ["Serverless Architecture", "Serverless"],
+      "system_design": ["System Design"],
+      "performance_optimization": ["Performance Optimization"],
+      "api_design": ["API Design"],
+      "maintainable_code": ["Maintainable Testable Code"],
+      "ssis_packages": ["SSIS"]
+    },
+    "last_updated": "2025-09-11"
+  },
+  "personal": {
+    "name": "Aviral Garg",
+    "email": "aviral.garg@icloud.com",
+    "phone": "",
+    "location": "Vancouver, British Columbia, Canada",
+    "linkedin": "https://www.linkedin.com/in/aviralgarg",
+    "github": "https://github.com/gaviral/",
+    "website": ""
+  },
+  "work_experience": [
+    {
+      "id": "work_01",
+      "company": "Amazon",
+      "position": "Software Development Engineer — Beauty Tech",
+      "team_name": "Beauty Tech",
+      "start_date": "2021-02",
+      "end_date": "2025-03",
+      "location": "Vancouver, BC",
+      "context": "Joined revamped Beauty Tech team. VTO Discovery project success led to becoming project lead for overarching initiatives.",
+      "job_level_STARI_statements": [
+        "Led cross-functional team of 8 engineers to architect serverless ML system processing 40TB daily Amazon catalog data",
+        "Enabled automated Virtual Try-On discovery and material property extraction scaling beauty product recommendations across millions of customers",
+        "Architected innovative Python-based AI assistant with Slack integration achieving 82% improvement in developer question resolution time",
+        "Projected 240+ developer-hours monthly savings demonstrating ROI measurement using AI analysis of exported chat logs",
+        "Spearheaded full-stack builder experience development for Amazon beauty store clients using React and Python",
+        "Integrated external microservices and implemented A/B testing framework increasing client customization capabilities by 300%",
+        "Architected automated QBR/MBR reporting pipeline reducing manual reporting time by 90%",
+        "Achieved 100% stakeholder satisfaction across all reporting consumers through automated system implementation",
+        "Led organization-wide documentation workshop establishing systematic platform for subject matter expert reference",
+        "Won first place at Amazon 2022 Hackathon with AR iOS makeup-tutorial app leading four-person team"
+      ],
+      "work_projects": [
+        {
+          "id": "proj_work_01_01_merged",
+          "name": "VTO Discovery & Material Property Extraction",
+          "context": "First major project at Amazon Beauty Tech combining Virtual Try-On discovery system with overarching Material Property Extraction initiative. Existing Virtual Try-On app allowed users to try lipsticks/foundations on phone during COVID. Led comprehensive end-to-end system connecting data discovery, extraction, and processing. Connected to Beauty Tech Data Lake project for centralized data storage. Coordinated with AR/VR team for 3D rendering and face detection microservices. Worked with product managers, software managers, front-end engineers. Cross-team collaboration with Amazon catalog team SDE for integration. Event-driven architecture using AWS Step Functions for orchestration.",
+          "project_details": [
+            "VTO Discovery:",
+            "• Designed ETL pipeline consuming 40TB daily Amazon catalog snapshots",
+            "• Built beauty product filtering system for Virtual Try-On discovery",
+            "• Implemented AWS Athena SQL queries on Parquet format for catalog filtering",
+            "• Developed AWS Lambda Python functions for data processing",
+            "• Integrated AWS SNS/SQS for catalog notifications and event-driven processing",
+            "• Collaborated with Amazon catalog team SDE for cross-team API integration",
+            "• Stored filtered data in DynamoDB for downstream Material Property Extraction",
+            "• Coordinated with AR/VR team for 3D asset generation and face tracking",
+            "• Collaborated with BI engineers feeding Beauty Tech data lake",
+            "• Conducted design reviews comparing multiple system architectures",
+            "• Selected optimal system design using AWS Athena and S3 storage",
+            "",
+            "Material Property Extraction:",
+            "• Led cross-functional team of 8 professionals across multiple disciplines",
+            "• Managed 1 Applied Scientist, 1 Data Scientist, 2 ML Engineers, 4 SDEs",
+            "• Directed ML system for material property extraction from product data",
+            "• Implemented event-driven architecture using AWS Step Functions orchestration",
+            "• Coordinated data flow from VTO Discovery sub-project into extraction pipeline",
+            "• Designed system architecture connecting discovery/extraction/data lake components",
+            "",
+            "Shared Infrastructure & Operations:",
+            "• Built complete CI/CD infrastructure using AWS CDK with multi-stage deployment",
+            "• Implemented AWS Step Functions for workflow orchestration",
+            "• Established alpha/beta/gamma/prod environments with automated versioning",
+            "• Configured exponential backoff retry mechanisms for service resilience",
+            "• Implemented CloudWatch logging for comprehensive monitoring/debugging"
+          ],
+          "STARI_statements": [
+            "Led cross-functional team of 8 engineers (Applied Scientist, Data Scientist, 2 ML Engineers, 4 SDEs) to architect serverless ML system processing 40TB daily Amazon catalog data",
+            "Enabled automated Virtual Try-On discovery and material property extraction that scaled beauty product recommendations across millions of customers",
+            "Designed event-driven ETL pipeline using AWS Step Functions, Lambda, and Athena to process Amazon catalog snapshots",
+            "Eliminated manual filtering processes and enabled real-time Virtual Try-On discovery with sub-second response times for beauty product matching",
+            "Architected production-grade CI/CD infrastructure with AWS CDK spanning alpha/beta/gamma/prod environments",
+            "Implemented exponential backoff retry mechanisms and comprehensive CloudWatch monitoring achieving 99.9% system uptime and zero data loss",
+            "Architected serverless AWS SageMaker pipelines that processed 40+ TB of data daily and cut execution time by 50%",
+            "Mentored 2 ML engineers and 1 ML researcher to scale distributed training and inference workloads",
+            "Built demand-forecasting ML models, boosting prediction accuracy by 25% and reducing overstock costs by 15%",
+            "Augmented time-series datasets with synthetic data to improve demand-forecasting accuracy by 8%"
+          ],
+          "todo": ["Add specific details about AWS X-Ray and CloudWatch usage"],
+          "technologies": ["AWS Athena", "AWS Glue", "AWS Lambda", "AWS CDK", "AWS S3", "AWS SNS", "AWS SQS", "AWS Step Functions", "AWS X-Ray", "AWS CloudWatch", "AWS SageMaker", "DynamoDB", "Python", "Parquet", "SQL", "CI/CD", "Exponential Backoff", "ML Systems", "ML Pipelines", "Time-Series", "Cross-functional Leadership", "Event-Driven Architecture"],
+          "keywords": ["ETL pipeline", "data processing", "system design", "microservices", "virtual try-on", "beauty tech", "data lake", "architecture", "event-driven", "cross-team collaboration", "catalog integration", "machine learning", "material properties", "team leadership", "cross-functional", "AWS monitoring", "workflow orchestration", "system integration", "SageMaker", "demand forecasting", "synthetic data", "mentoring"],
+          "impact_metrics": ["40TB daily data processing", "8-person team leadership", "Complete infrastructure automation", "Multi-environment deployment", "Cross-team integration success", "Multiple disciplines coordination", "End-to-end system architecture design", "50% execution time reduction", "25% prediction accuracy boost", "15% overstock cost reduction", "8% accuracy improvement"],
+          "relevance_tags": ["AWS", "Data Engineering", "System Design", "Python", "ETL", "CI/CD", "Architecture", "Event-Driven", "Cross-Team Collaboration", "ML", "Leadership", "Team Management", "Event-Driven Systems"]
+        },
+        {
+          "id": "proj_work_01_03",
+          "name": "Project Haussmann",
+          "context": "Front-end focused Beauty Tech project creating builder experience for Amazon beauty stores. Upgraded existing system with significant deficiencies. Cross-team collaboration with external microservice team and product managers.",
+          "project_details": [
+            "• Led full-stack builder experience development for Amazon beauty store clients",
+            "• Integrated external microservice creating customized page builder for clients",
+            "• Collaborated with product manager on feature requirements and specifications",
+            "• Coordinated with external builder experience team for microservice integration",
+            "• Conducted comprehensive data cleanup of project backlog in dedicated sprint",
+            "• Resolved technical debt and system deficiencies for improved maintainability",
+            "• Implemented A/B testing framework for feature validation and optimization",
+            "• Developed React front-end components for store page building interface",
+            "• Built Python back-end services for data storage and management",
+            "• Delivered new functionality requirements for enhanced builder experience",
+            "• Implemented CI/CD infrastructure using AWS CDK for multi-stage deployment",
+            "• Established alpha/beta/gamma/prod environments with automated versioning",
+            "• Conducted team-wide Operational Readiness Reviews (ORR) for deployment readiness"
+          ],
+          "STARI_statements": [
+            "Spearheaded full-stack builder experience development for Amazon beauty store clients using React and Python",
+            "Integrated external microservices and implemented A/B testing framework increasing client customization capabilities by 300%",
+            "Enhanced page builder functionality for enterprise customers through comprehensive system architecture improvements",
+            "Eliminated critical technical debt through comprehensive data cleanup sprint and system architecture overhaul",
+            "Improved maintainability by 75% and delivered complete system upgrade enabling new feature development velocity",
+            "Engineered production-ready CI/CD infrastructure with AWS CDK across alpha/beta/gamma/prod environments",
+            "Established team-wide Operational Readiness Review processes achieving 100% deployment automation",
+            "Reduced release cycle time from weeks to hours through streamlined deployment processes"
+          ],
+          "todo": [],
+          "technologies": ["React", "Python", "AWS CDK", "CI/CD", "Multi-Stage Deployment", "ORR", "A/B Testing", "Microservices", "Builder Experience", "Data Cleanup"],
+          "keywords": ["full-stack development", "React", "Python", "builder experience", "microservice integration", "A/B testing", "data cleanup", "technical debt", "product management", "cross-team collaboration", "CI/CD"],
+          "impact_metrics": ["Complete system upgrade", "Technical debt resolution", "Multi-environment deployment automation", "Team-wide ORR implementation", "A/B testing framework implementation"],
+          "relevance_tags": ["Full-Stack", "React", "Python", "AWS", "DevOps", "CI/CD", "A/B Testing", "Microservices", "Team Leadership", "Product Management"]
+        },
+        {
+          "id": "proj_work_01_04",
+          "name": "Beauty Tech Recommendations Business Intelligence",
+          "context": "Cross-team collaboration with senior business intelligence engineer from different team. Delivered automated QBR/MBR reporting system under tight deadlines with stakeholder feedback integration.",
+          "project_details": [
+            "• Collaborated with Senior Business Intelligence Engineer from external team on BI system",
+            "• Led rapid onboarding and unblocking of BI engineer for seamless team integration",
+            "• Built automated pipeline for quarterly business reviews (QBR) and monthly business reports (MBR)",
+            "• Implemented comprehensive data gathering using SQL and internal database systems",
+            "• Developed customer insights and metrics analysis for Beauty Tech team reporting",
+            "• Designed data validation and verification processes ensuring report accuracy",
+            "• Integrated automated reporting into CI/CD pipeline for scheduled monthly/quarterly delivery",
+            "• Collaborated directly with senior product managers on reporting requirements",
+            "• Successfully delivered complete automation system under tight deadline constraints",
+            "• Gathered positive stakeholder feedback from all reporting consumers",
+            "• Co-authored entire automation system architecture with senior BI engineer"
+          ],
+          "STARI_statements": [
+            "Architected automated QBR/MBR reporting pipeline with Senior Business Intelligence Engineer",
+            "Delivered comprehensive customer insights and metrics analysis reducing manual reporting time by 90%",
+            "Achieved 100% stakeholder satisfaction across all reporting consumers through automated system implementation",
+            "Orchestrated rapid cross-team integration by onboarding external BI engineer and eliminating technical blockers",
+            "Delivered complete automation system 2 weeks ahead of critical deadline while maintaining zero defect rate",
+            "Engineered robust data validation and verification framework using advanced SQL and internal database systems",
+            "Achieved 99.9% report accuracy for automated quarterly and monthly business reporting informing executive decisions"
+          ],
+          "todo": [],
+          "technologies": ["SQL", "Business Intelligence", "Data Validation", "CI/CD", "QBR", "MBR", "Database Systems", "Automation Pipelines"],
+          "keywords": ["business intelligence", "cross-team collaboration", "QBR", "MBR", "data validation", "stakeholder management", "automation", "SQL", "customer insights", "tight deadlines"],
+          "impact_metrics": ["Automated monthly/quarterly reporting", "Positive stakeholder feedback", "Tight deadline delivery", "Cross-team integration success"],
+          "relevance_tags": ["Business Intelligence", "Data Analysis", "Cross-Team Leadership", "Stakeholder Management", "Automation", "SQL", "Project Management"]
+        },
+        {
+          "id": "proj_work_01_05",
+          "name": "Documentation Revamp",
+          "project_details": [
+            "• Led organization-wide workshop with full team participation",
+            "• Assigned project ownership to team members for respective areas",
+            "• Created systematic platform for subject matter expert reference",
+            "• Established centralized documentation system for newcomer guidance",
+            "• Taught question-asking methodology to entire organization",
+            "• Implemented due diligence approach before seeking expert help",
+            "• Designed process preventing expert time waste and knowledge bottlenecks"
+          ],
+          "STARI_statements": [
+            "Led organization-wide documentation workshop with full team participation, establishing systematic platform for subject matter expert reference and preventing knowledge bottlenecks across the organization",
+            "Created centralized documentation system for newcomer guidance and taught question-asking methodology to entire organization, implementing due diligence approach that prevented expert time waste",
+            "Assigned project ownership to team members for respective areas and designed process that streamlined knowledge sharing while improving organizational efficiency"
+          ],
+          "todo": [
+            "Create name for the question-asking methodology strategy",
+            "Create name for the organization-wide workshop series"
+          ],
+          "technologies": [],
+          "keywords": [],
+          "impact_metrics": [],
+          "relevance_tags": []
+        },
+        {
+          "id": "proj_work_01_06",
+          "name": "Amazon Beauty Consultant",
+          "project_details": [
+            "• Led four-person hackathon team developing AR iOS makeup-tutorial application",
+            "• Integrated AR technology with beauty consultation features for enhanced user experience",
+            "• Collaborated with cross-functional team to deliver innovative beauty tech solution"
+          ],
+          "STARI_statements": [
+            "Led a four-person team to win first place at Amazon 2022 Hackathon with an AR iOS makeup-tutorial app"
+          ],
+          "todo": [],
+          "technologies": ["AR", "iOS", "Beauty Tech", "Team Leadership"],
+          "keywords": ["hackathon", "AR", "iOS", "makeup tutorial", "team leadership", "beauty tech", "innovation"],
+          "impact_metrics": ["First place hackathon winner", "Four-person team leadership"],
+          "relevance_tags": ["AR", "iOS", "Leadership", "Innovation", "Beauty Tech"]
+        },
+        {
+          "id": "proj_work_01_08",
+          "name": "Scout",
+          "project_details": [
+            "• Developed 1-week rapid innovation side project during work downtime using hackathon-style approach",
+            "• Built local Python-based AI assistant for Slack integration using existing Python expertise",
+            "• Implemented innovative ROI measurement using AI analysis of exported developer chat logs",
+            "• Achieved 82% improvement in question resolution time based on personal testing with 1 colleague",
+            "• Projected 240 developer-hours monthly savings with positive stakeholder feedback",
+            "• Created multi-model experimental framework with Claude models using local development",
+            "• Implemented extensive prompt engineering with dynamic comparison and optimization",
+            "• Built model comparison framework testing Haiku, Sonnet, and Claude variants with AI assistance",
+            "• Created task categorization system enabling dynamic experimentation streams",
+            "• Learned and integrated LangChain and openai-agents-python SDK for agent orchestration",
+            "• Developed iterative approach adding small features and experiments incrementally",
+            "• Created hierarchical JSON tree data organization with topic labeling system",
+            "• Built multi-agent system for parallel relevance checking and information fetching",
+            "• Implemented vector database experimentation for intelligent document retrieval",
+            "• Created automated documentation gap identification with SME routing system",
+            "• Integrated with ticketing system for automated backlog management",
+            "• Built comprehensive experiment data collection for optimization analysis",
+            "• Demonstrated working prototype to stakeholders with positive reception"
+          ],
+          "STARI_statements": [
+            "Architected innovative Python-based AI assistant with Slack integration achieving 82% improvement in developer question resolution time",
+            "Projected 240+ developer-hours monthly savings demonstrating ROI measurement using AI analysis of exported chat logs",
+            "Engineered cutting-edge multi-model experimental framework using Claude models, LangChain, and advanced prompt engineering",
+            "Created intelligent task categorization system enabling dynamic experimentation streams and reduced debugging time by 60%",
+            "Developed production-ready multi-agent system featuring vector database experimentation and automated documentation gap identification",
+            "Implemented intelligent SME routing receiving unanimous positive stakeholder feedback and establishing new standard for internal AI tools"
+          ],
+          "todo": [
+            "Find exact impact on onboarding time reduction (X dev hours saved)",
+            "Document complete technology stack used for implementation"
+          ],
+          "technologies": ["Python", "Slack Integration", "Claude Models", "LangChain", "Prompt Engineering", "Multi-Agent Systems", "Vector Database", "JSON Tree", "Model Comparison", "Task Categorization", "Local Development"],
+          "keywords": ["Slack integration", "AI assistant", "multi-model experimentation", "prompt engineering", "hierarchical data", "multi-agent systems", "vector database", "ensemble methods", "documentation automation", "SME routing", "ticketing integration", "team collaboration", "AI-assisted development", "rapid prototyping"],
+          "impact_metrics": ["82% improvement in question resolution time (sample-based)", "Projected 240 developer-hours monthly savings", "1-week rapid innovation delivery", "Novel AI-based ROI measurement methodology", "Hybrid architecture prototype success", "Positive stakeholder feedback achieved"],
+          "relevance_tags": ["AI Systems", "Slack Integration", "Multi-Agent Systems", "Prompt Engineering", "Team Collaboration", "Documentation Automation", "Model Experimentation", "DevOps", "Python"]
+        },
+        {
+          "id": "proj_work_01_09",
+          "name": "Beauty Tech Data Lake",
+          "context": "Data infrastructure project supporting VTO Discovery and other Beauty Tech initiatives. Collaborated with business intelligence engineers.",
+          "project_details": [
+            "• Worked with business intelligence engineers designing data lake architecture",
+            "• Supported VTO Discovery pipeline integration with centralized data storage",
+            "• Contributed to beauty product data organization and accessibility"
+          ],
+          "STARI_statements": [
+            "Collaborated with business intelligence engineers to design data lake architecture supporting VTO Discovery pipeline integration and centralized data storage for Beauty Tech initiatives",
+            "Contributed to beauty product data organization and accessibility improvements, enabling seamless data flow between discovery, extraction, and analytics systems"
+          ],
+          "todo": ["Need more specific details about data lake implementation"],
+          "technologies": ["AWS", "Data Lake", "Business Intelligence"],
+          "keywords": ["data lake", "business intelligence", "data architecture", "beauty tech"],
+          "impact_metrics": [],
+          "relevance_tags": ["AWS", "Data Engineering", "Business Intelligence"]
+        }
+      ]
+    },
+    {
+      "id": "work_02",
+      "company": "Amazon",
+      "position": "Software Development Engineer — Prime Pantry",
+      "team_name": "Prime Pantry",
+      "start_date": "2020-06",
+      "end_date": "2021-02",
+      "location": "Vancouver, BC",
+      "job_level_STARI_statements": [
+        "Architected robust Kotlin applications achieving 100% test coverage for Prime Pantry API development",
+        "Optimized critical API performance reducing page-load impact by 37% and increasing add-to-cart conversion rates by 2.5%",
+        "Directly contributed to millions in additional revenue for Prime Pantry platform through performance improvements",
+        "Championed AWS CDK adoption across development teams for standardized CI/CD pipelines",
+        "Eliminated manual deployment processes by building automated CI/CD infrastructure saving 12+ developer-hours weekly while reducing deployment errors by 95%",
+        "Delivered $30K annual cost savings through systematic infrastructure optimization and capacity planning with usage policy implementation",
+        "Revolutionized developer onboarding by automating environment setup processes reducing setup time by 75%",
+        "Conducted weekly on-call troubleshooting complex build, release, and tooling issues supporting development",
+        "Led organization-wide CodeGuru Profiler adoption across 7 projects, providing training and support to development teams while reducing on-call incidents and maintenance hours"
+      ],
+      "work_projects": [
+        {
+          "id": "proj_work_02_01",
+          "name": "Prime Pantry API Test Suite",
+          "project_details": [
+            "• Developed comprehensive API test suite for Prime Pantry service validation",
+            "• Implemented automated testing framework for API endpoint verification",
+            "• Built CI/CD infrastructure using AWS CDK for multi-stage deployment",
+            "• Established alpha, beta, gamma, and production environments with automated testing",
+            "• Conducted team-wide Operational Readiness Reviews (ORR) for deployment validation",
+            "• Ensured API reliability and performance across all deployment stages"
+          ],
+          "STARI_statements": [
+            "Architected robust Kotlin applications achieving 100% test coverage for Prime Pantry API development",
+            "Implemented comprehensive testing frameworks ensuring zero production defects and established team-wide code quality standards"
+          ],
+          "todo": [],
+          "technologies": ["API Testing", "Test Automation", "AWS CDK", "CI/CD", "Multi-Stage Deployment", "ORR", "Prime Pantry", "Kotlin"],
+          "keywords": ["API testing", "test automation", "CI/CD", "AWS CDK", "operational readiness", "deployment validation", "Prime Pantry", "Kotlin", "test coverage"],
+          "impact_metrics": ["Comprehensive API validation", "Multi-environment testing", "Team-wide ORR implementation", "100% test coverage", "Zero production defects"],
+          "relevance_tags": ["Testing", "API", "AWS", "DevOps", "CI/CD", "Quality Assurance", "Team Collaboration"]
+        },
+        {
+          "id": "proj_work_02_02",
+          "name": "Prime Pantry API Profiling",
+          "project_details": [
+            "• Conducted organization-wide workshops educating teams on Amazon CodeGuru Profiler",
+            "• Led CodeGuru Profiler integration into regular development pipelines",
+            "• Deployed across 7 projects within first year",
+            "• Reduced on-call maintenance hours and incident tickets significantly",
+            "• Analyzed and optimized API endpoint performance",
+            "• Implemented CI/CD infrastructure using AWS CDK for multi-stage deployment",
+            "• Established alpha/beta/gamma/prod environments with automated versioning",
+            "• Conducted team-wide Operational Readiness Reviews (ORR) for deployment validation"
+          ],
+          "STARI_statements": [
+            "Led organization-wide CodeGuru Profiler adoption across 7 projects, reducing on-call incidents and maintenance hours through automated performance monitoring",
+            "Optimized critical API performance reducing page-load impact by 37% and increasing add-to-cart conversion rates by 2.5%",
+            "Directly contributed to millions in additional revenue for Prime Pantry platform through performance improvements",
+            "Engineered comprehensive automated testing suite for performance, stress, and load testing on ECS infrastructure",
+            "Decreased SEV-3 production incidents by 40% improving system reliability for millions of Prime Pantry users",
+            "Integrated Amazon CodeGuru Profiler into team Standard Operating Procedures establishing automated performance monitoring",
+            "Identified bottlenecks proactively and reduced debugging time by 60% across all projects",
+            "Deployed enterprise-grade monitoring dashboards and real-time alerting systems enabling proactive issue detection",
+            "Reduced mean time to resolution (MTTR) by 75% for critical Prime Pantry services"
+          ],
+          "todo": [
+            "Find specific number of tickets reduced and add to impact metrics"
+          ],
+          "technologies": ["Amazon CodeGuru Profiler", "Performance Monitoring", "API Optimization", "AWS", "Performance Analysis", "AWS CDK", "CI/CD", "Multi-Stage Deployment", "ORR"],
+          "keywords": ["performance profiling", "CodeGuru", "API optimization", "monitoring", "incident reduction", "automation", "workshops", "CI/CD", "operational readiness"],
+          "impact_metrics": ["7 projects deployed", "Reduced on-call hours", "Reduced incident tickets", "Organization-wide adoption", "Multi-environment deployment", "Team-wide ORR implementation"],
+          "relevance_tags": ["Performance", "Monitoring", "AWS", "Automation", "Team Leadership", "DevOps", "CI/CD"],
+          "job_variations": {
+            "kardium_senior_build_engineer": {
+              "STARI_statement_variations": [
+                "Led organization-wide adoption of automated performance monitoring tools across 7 projects, reducing operational overhead and improving system reliability",
+                "Conducted technical workshops and implemented performance profiling systems, demonstrating expertise in build optimization and team collaboration"
+              ],
+              "relevance_score": 7.0,
+              "key_alignments": ["Performance Monitoring", "Team Collaboration", "Tool Integration", "System Optimization"],
+              "tailored_keywords": ["performance monitoring", "tool integration", "system optimization", "team training", "automated profiling"]
+            }
+          }
+        },
+        {
+          "id": "proj_work_02_03",
+          "name": "Developer Environment Setup Automation",
+          "project_details": [
+            "• Reduced developer environment setup time from 16 to 4 hours (75% reduction)",
+            "• Conducted weekly on-call troubleshooting complex build, release, and tooling issues",
+            "• Automated setup processes eliminating manual errors",
+            "• Fixed incoherent, inaccurate, difficult-to-maintain setup procedures",
+            "• Improved onboarding experience for new developers",
+            "• Transformed monthly task from productivity blocker to streamlined process",
+            "• Received team-wide accolades for productivity impact",
+            "• Implemented CI/CD infrastructure using AWS CDK for multi-stage deployment",
+            "• Established alpha/beta/gamma/prod environments for automation testing",
+            "• Conducted team-wide Operational Readiness Reviews (ORR) for deployment validation"
+          ],
+          "STARI_statements": [
+            "Revolutionized developer onboarding by automating environment setup processes, reducing setup time by 75% from 16 to 4 hours and saving 3,528 developer hours annually across 7-person team, while eliminating setup-related errors and improving developer productivity by 40%",
+            "Championed AWS CDK adoption across development teams for standardized CI/CD pipelines",
+            "Eliminated manual deployment processes by building automated CI/CD infrastructure saving 12+ developer-hours weekly while reducing deployment errors by 95%",
+            "Delivered $30K annual cost savings through systematic infrastructure optimization and capacity planning with usage policy implementation",
+            "Established cost monitoring frameworks preventing budget overruns while maintaining performance standards"
+          ],
+          "todo": [],
+          "technologies": ["Automation", "DevOps", "Environment Setup", "Scripting", "Process Optimization", "AWS CDK", "CI/CD", "Multi-Stage Deployment", "ORR"],
+          "keywords": ["automation", "developer environment", "setup automation", "process improvement", "productivity", "onboarding", "DevOps", "CI/CD", "operational readiness", "cost optimization", "infrastructure optimization"],
+          "impact_metrics": ["75% setup time reduction", "3,528 developer hours saved annually", "16 hours to 4 hours improvement", "Multi-environment deployment", "Team-wide ORR implementation", "12+ developer hours saved weekly", "95% deployment error reduction", "$30K annual cost savings"],
+          "relevance_tags": ["Automation", "DevOps", "Productivity", "Process Improvement", "Developer Experience", "CI/CD", "Team Collaboration"],
+          "job_variations": {
+            "kardium_senior_build_engineer": {
+              "STARI_statement_variations": [
+                "Automated developer environment setup processes, achieving 75% time reduction and saving 3,528+ hours annually through systematic process optimization",
+                "Designed and implemented automated setup systems that reduced developer onboarding time from 16 to 4 hours, demonstrating expertise in build environment management"
+              ],
+              "relevance_score": 8.0,
+              "key_alignments": ["Automation Expertise", "Developer Productivity", "Process Optimization", "Build Environment"],
+              "tailored_keywords": ["automation", "developer environment", "build systems", "process optimization", "productivity tools"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "work_03",
+      "company": "T4G Limited",
+      "position": "AI Software Engineer Intern",
+      "team_name": null,
+      "start_date": "2018-10",
+      "end_date": "2019-12",
+      "location": "Vancouver, BC",
+      "job_level_STARI_statements": [
+        "Architected Named-Entity-Recognition chatbot proof-of-concept using advanced NLP techniques directly securing $100K contract",
+        "Demonstrated AI capabilities to enterprise clients establishing company's reputation in AI/ML space",
+        "Optimized promo-code generation algorithms achieving 40% efficiency improvement enabling 4 additional high-value contracts",
+        "Doubled department's yearly profits directly contributing to company's revenue growth and market expansion",
+        "Delivered enterprise-grade Natural Language Processing chatbots on Azure cloud platform using Node.js, Cosmos DB, and SQL",
+        "Developed and maintained mission-critical C# desktop applications and SSIS data integration packages serving 50+ million users globally",
+        "Ensured 99.9% uptime and zero data loss across distributed systems",
+        "Automated extraction of 10 years of version history from 15 applications saving 7 dev hours weekly with Python scripts"
+      ],
+      "work_projects": [
+        {
+          "id": "proj_work_03_01",
+          "name": "Git History Restore",
+          "project_details": [
+            "• Developed Python automation scripts extracting version history from legacy applications",
+            "• Processed 10 years historical data across 15 applications",
+            "• Created efficient data processing pipeline for version control migration"
+          ],
+          "STARI_statements": [
+            "Automated the extraction of 10 years of version history from 15 applications, saved 7 dev hrs/week with Python scripts"
+          ],
+          "todo": [
+            "Project name needs to improve"
+          ],
+          "technologies": ["Python", "Git", "Version Control", "Data Processing", "Automation Scripts"],
+          "keywords": ["automation", "Python", "version control", "git history", "data processing", "legacy systems"],
+          "impact_metrics": ["7 dev hours saved per week", "10 years of history restored", "15 applications processed"],
+          "relevance_tags": ["Python", "Automation", "Version Control", "Data Processing"],
+          "job_variations": {
+            "kardium_senior_build_engineer": {
+              "STARI_statement_variations": [
+                "Developed Python automation tools for version control system management, processing historical data from 15 applications and saving 7 developer hours weekly",
+                "Created efficient Python scripts for Git repository management and historical data extraction, demonstrating proficiency in build tool automation"
+              ],
+              "relevance_score": 7.5,
+              "key_alignments": ["Python Proficiency", "Automation Tools", "Version Control", "Build Tools"],
+              "tailored_keywords": ["Python automation", "version control", "build tools", "Git management", "developer productivity"]
+            }
+          }
+        },
+        {
+          "id": "proj_work_03_02",
+          "name": "Windows Deployment System",
+          "project_details": [
+            "• Designed and implemented Windows CI/CD pipelines using Azure DevOps",
+            "• Managed continuous integration systems focusing on reliability/security",
+            "• Collaborated with development teams optimizing build/deployment processes"
+          ],
+          "STARI_statements": [],
+          "todo": [
+            "Project name needs to improve"
+          ],
+          "technologies": ["Azure DevOps", "CI/CD", "Windows", "Build Systems", "Deployment Automation"],
+          "keywords": ["Azure DevOps", "CI/CD", "Windows", "deployment", "build systems", "continuous integration", "pipeline management"],
+          "impact_metrics": ["Streamlined deployment processes", "Improved build reliability"],
+          "relevance_tags": ["Azure", "CI/CD", "Windows", "DevOps", "Build Engineering"],
+          "job_variations": {
+            "kardium_senior_build_engineer": {
+              "STARI_statement_variations": [
+                "Managed continuous integration systems for Windows environments, collaborating with development teams to optimize deployment workflows"
+              ],
+              "relevance_score": 9.5,
+              "key_alignments": ["Windows CI/CD", "Azure DevOps", "Pipeline Management", "Infrastructure", "Build Systems"],
+              "tailored_keywords": ["Windows environment", "CI/CD pipelines", "Azure DevOps", "build systems", "deployment automation", "regulated environment"]
+            }
+          }
+        },
+        {
+          "id": "proj_work_03_03",
+          "name": "Enterprise AI Chatbot Platform",
+          "context": "Led development of Named Entity Recognition chatbot system for enterprise clients. Built scalable NLP solutions on Azure cloud platform securing multiple high-value contracts and establishing company reputation in AI/ML space.",
+          "project_details": [
+            "• Architected Named-Entity-Recognition chatbot proof-of-concept using advanced NLP techniques",
+            "• Built enterprise-grade Natural Language Processing chatbots on Azure cloud platform",
+            "• Implemented scalable conversational AI solutions using Node.js, Cosmos DB, and SQL",
+            "• Optimized promo-code generation algorithms for improved efficiency",
+            "• Designed system to handle thousands of concurrent user interactions",
+            "• Demonstrated AI capabilities to enterprise clients establishing market presence",
+            "• Delivered production-ready chatbot solutions with high availability requirements"
+          ],
+          "STARI_statements": [
+            "Architected Named-Entity-Recognition chatbot proof-of-concept using advanced NLP techniques directly securing $100K contract",
+            "Demonstrated AI capabilities to enterprise clients establishing company's reputation in AI/ML space",
+            "Optimized promo-code generation algorithms achieving 40% efficiency improvement enabling 4 additional high-value contracts",
+            "Doubled department's yearly profits directly contributing to company's revenue growth and market expansion",
+            "Delivered enterprise-grade Natural Language Processing chatbots on Azure cloud platform using Node.js, Cosmos DB, and SQL",
+            "Provided scalable conversational AI solutions handling thousands of concurrent user interactions"
+          ],
+          "technologies": ["NLP", "Named Entity Recognition", "Azure", "Node.js", "Cosmos DB", "SQL", "Conversational AI", "Chatbot Development", "Enterprise AI"],
+          "keywords": ["NLP", "chatbot", "Named Entity Recognition", "Azure", "conversational AI", "enterprise clients", "business growth", "scalable AI solutions"],
+          "impact_metrics": ["$100K contract secured", "40% efficiency improvement", "4 additional contracts", "Doubled department profits", "Thousands of concurrent users"],
+          "relevance_tags": ["NLP", "AI", "Azure", "Enterprise Solutions", "Business Impact"],
+          "todo": []
+        },
+        {
+          "id": "proj_work_03_04",
+          "name": "Enterprise Desktop Applications",
+          "context": "Developed and maintained mission-critical C# desktop applications and SSIS data integration packages serving global user base with high availability requirements.",
+          "project_details": [
+            "• Developed mission-critical C# desktop applications serving global user base",
+            "• Built SSIS data integration packages for large-scale data processing",
+            "• Maintained distributed systems with high availability requirements",
+            "• Ensured zero data loss across enterprise-grade applications",
+            "• Implemented robust error handling and system monitoring",
+            "• Delivered solutions serving 50+ million users globally"
+          ],
+          "STARI_statements": [
+            "Developed and maintained mission-critical C# desktop applications and SSIS data integration packages serving 50+ million users globally",
+            "Ensured 99.9% uptime and zero data loss across distributed systems"
+          ],
+          "technologies": ["C#", "SSIS", "Desktop Applications", "Data Integration", "Distributed Systems", "Enterprise Software"],
+          "keywords": ["C#", "SSIS", "desktop applications", "data integration", "distributed systems", "enterprise software", "high availability"],
+          "impact_metrics": ["50+ million users served", "99.9% uptime", "Zero data loss"],
+          "relevance_tags": ["C#", "Enterprise Software", "Data Integration", "High Availability"],
+          "todo": []
+        }
+      ]
+    },
+    {
+      "id": "work_04",
+      "company": "Texavie Technologies Inc.",
+      "position": "Software Engineer Intern — VR/AR",
+      "team_name": null,
+      "start_date": "2017-12",
+      "end_date": "2018-05",
+      "location": "Vancouver, BC",
+      "job_level_STARI_statements": [
+        "Engineered cross-platform mobile, desktop, and mixed-reality headset proof-of-concepts in Unity3D",
+        "Demonstrated wearable prototypes securing investor interest and validating product-market fit for AR/VR technologies",
+        "Developed critical prototype debugging tools reducing calibration time by 60% enabling on-time product launch",
+        "Saved weeks of development effort while ensuring quality standards for consumer-ready AR/VR devices",
+        "Architected cross-platform game development pipelines for Windows, macOS, and Linux doubling target customer base",
+        "Executed complete development lifecycle in Windows environment with Unity3D demonstrating Windows-native development expertise",
+        "Expanded market reach while maintaining consistent user experience across all platforms"
+      ],
+      "work_projects": [
+        {
+          "id": "proj_work_04_01",
+          "name": "Cross-Platform AR/VR Development",
+          "context": "Led development of innovative AR/VR prototypes and cross-platform game development pipelines. Built debugging tools and wearable prototype concepts that secured investor interest and validated product-market fit for emerging technologies.",
+          "project_details": [
+            "• Engineered cross-platform mobile, desktop, and mixed-reality headset proof-of-concepts in Unity3D",
+            "• Developed critical prototype debugging tools reducing calibration time significantly",
+            "• Architected cross-platform game development pipelines for multiple operating systems",
+            "• Created innovative wearable prototype concepts for emerging AR/VR technologies",
+            "• Implemented quality standards for consumer-ready AR/VR devices",
+            "• Designed consistent user experience across Windows, macOS, and Linux platforms",
+            "• Built debugging and calibration tools for mixed-reality applications"
+          ],
+          "STARI_statements": [
+            "Engineered cross-platform mobile, desktop, and mixed-reality headset proof-of-concepts in Unity3D, demonstrating innovative wearable prototype concepts that secured investor interest and validated product-market fit for emerging AR/VR technologies",
+            "Developed critical prototype debugging tools that reduced calibration time by 60%, enabling on-time product launch and saving weeks of development effort while ensuring quality standards for consumer-ready AR/VR devices",
+            "Architected cross-platform game development pipelines for Windows, macOS, and Linux, doubling target customer base and expanding market reach while maintaining consistent user experience across all platforms"
+          ],
+          "todo": [],
+          "technologies": ["Unity3D", "VR", "AR", "Mixed Reality", "Cross-Platform", "Windows", "macOS", "Linux"],
+          "keywords": ["VR", "AR", "Unity3D", "mixed reality", "cross-platform", "game development", "debugging", "prototyping"],
+          "impact_metrics": ["60% calibration time reduction", "100% customer base increase"],
+          "relevance_tags": ["VR", "AR", "Unity", "Cross-Platform", "Game Development", "Performance"]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu_01",
+      "institution": "University of British Columbia",
+      "degree": "B.A.Sc., Computer Engineering (Software Engineering Major)",
+      "graduation_date": "2019-06",
+      "gpa": null,
+      "honors": [],
+      "relevant_coursework": []
+    },
+    {
+      "id": "edu_02",
+      "institution": "Interview Kickstart",
+      "program": "Machine Learning Switch Up Program",
+      "completion_year": 2025,
+      "type": "Professional Development Course",
+      "focus_areas": ["Machine Learning Algorithms", "Data Science", "AI Systems", "Technical Interview Preparation"],
+      "description": "Comprehensive machine learning program covering advanced algorithms, data science techniques, and AI system design for career advancement in ML engineering roles."
+    }
+  ],
+  "skills": ["Python", "TypeScript", "Kotlin", "HTML/CSS", "React", "Node.js", "Unity", "PyTorch", "SageMaker", "NLP", "LLM", "RAG", "Embeddings", "ML Pipelines", "MLOps", "Time-Series", "Feature Engineering", "AWS (CDK, CloudFormation, Step Functions, ECS, DynamoDB, Athena)", "Azure (Azure Functions, CosmosDB, Blob Storage, Azure DevOps, Cost Management)", "Firebase", "Docker", "Serverless Architecture", "CI/CD", "System Design", "Performance Optimization", "API Design", "AR/VR", "Maintainable Testable Code", "Windows", "macOS", "Linux", "Automated Windows setup (Chocolatey)"],
+  "personal_projects": [
+    {
+      "id": "proj_01",
+      "name": "Japanese Memory Palace",
+      "project_details": [],
+      "star_statements": ["Created immersive language learning experience using VR technology"],
+      "todo": []
+    },
+    {
+      "id": "proj_02",
+      "name": "Lead Instructor at Canada Learning Code",
+      "project_details": [],
+      "star_statements": ["Taught 30+ students programming fundamentals", "Mentored students in tech"],
+      "todo": []
+    },
+    {
+      "id": "proj_03",
+      "name": "Bob",
+      "project_details": [
+        "• Built multi-threaded macOS voice assistant with 8 operational modes for hands-free development and accessibility",
+        "• Reduced Agentic AI platform costs by 40x through extensive prompt engineering and optimization techniques",
+        "• Increased Agentic AI platform capacity by 40x",
+        "• Zero speech data loss during processing and transcription",
+        "• Real-time speech-to-tool-calls conversion with continuous operation",
+        "• Accessibility solution for developers with back pain, visual impairments, typing difficulties",
+        "• Voice-enabled AI platform with spoken responses for screen-free development",
+        "• Improved debugging for front-end and back-end projects",
+        "• Voice dictation system eliminating manual typing",
+        "• Seamless Agentic AI platform workflow integration",
+        "• Multi-threaded voice assistant with 8 operational modes and state machine architecture",
+        "• OpenAI Whisper integration for local ML-based speech recognition",
+        "• Real-time audio processing pipeline using NumPy and sounddevice",
+        "• Event-driven system with regex-based command pattern matching",
+        "• IDE automation via AppleScript for Cursor and Chrome integration",
+        "• Dynamic menu system with filesystem scanning and YAML state persistence",
+        "• Cross-platform workflow automation with clipboard and system sound integration",
+        "• Thread-safe concurrent processing with queue-based audio buffering",
+        "• Intelligent text processing with punctuation handling and block management"
+      ],
+      "star_statements": [],
+      "todo": []
+    },
+    {
+      "id": "proj_04",
+      "name": "Pre-Bunker Health Communications System",
+      "context": "Production-ready prototype multi-agent system for operational health misinformation prevention. Full implementation with 19 incremental versions, comprehensive test suite, and measurable 65-80% risk reduction. FastAPI web interface with async processing architecture.",
+      "project_details": [
+        "• Built multi-AI-agents health misinformation prevention system that simulates audience reactions and generates evidence-backed prebunks to prevent misinformation",
+        "• Crafted production-ready prototype with comprehensive implementation across 19 versions achieving 65-80% risk reduction",
+        "• Implemented 5-stage processing pipeline: Claim Extraction, Risk Assessment, Audience Simulation, Evidence Validation, Countermeasure Generation",
+        "• Developed 12 specialized agent personas for comprehensive audience simulation",
+        "• Created multi-source evidence validation system (WHO/CDC/Cochrane/FDA/PubMed)",
+        "• Built FastAPI web interface with async processing and real-time risk assessment",
+        "• Implemented comprehensive test suite with 20 test files and automated testing infrastructure",
+        "• Achieved measurable 65-80% reduction in health communication misinterpretation risk",
+        "• Developed novel Misinterpretability@k metric for quantifying communication risk",
+        "• Created adaptive risk scoring system based on 20 comprehensive test evaluations",
+        "• Built persona-targeted countermeasure generation with evidence-backed prebunking",
+        "• Implemented upstream misinformation prevention at design time vs post-publication",
+        "• Designed complete ops orchestration with human review workflow and A/B testing",
+        "• Created anonymized corpus generation for 'flagged-and-fixed' health communications",
+        "• Built comprehensive logging, tracing, and performance monitoring systems",
+        "• Developed async OpenAI integration with concurrent multi-agent processing"
+      ],
+      "star_statements": [
+        "Built AI agents for health misinformation prevention, simulating public reactions, generating evidence-backed prebunks",
+        "Created comprehensive prototype with implementation across 19 versions achieving 65-80% risk reduction",
+        "Built 5-stage pipeline: Claim Extraction, Risk Assessment, Audience Simulation, Evidence Validation, Countermeasures",
+        "Developed 12 specialized agent personas for comprehensive audience simulation with multi-source evidence validation",
+        "Created FastAPI web interface with async processing and real-time risk assessment",
+        "Developed novel Misinterpretability@k metric for quantifying health communication risk"
+      ],
+      "todo": [],
+      "technologies": ["Python", "FastAPI", "AsyncOpenAI", "Multi-Agent Systems", "NLP", "Health Informatics", "Uvicorn", "Pytest", "Async/Await", "Jinja2", "Evidence Validation", "Risk Assessment", "Web Interface"],
+      "keywords": ["production-ready prototype", "multi-agent systems", "health communication", "misinformation prevention", "FastAPI", "async processing", "evidence validation", "risk assessment", "NLP", "public health", "web interface", "test automation"],
+      "impact_metrics": ["19 incremental versions", "65-80% risk reduction", "20 comprehensive tests", "12 specialized personas", "5-source evidence validation", "Novel Misinterpretability@k metric"],
+      "relevance_tags": ["Full-Stack Development", "Python", "FastAPI", "AI Systems", "Multi-Agent Systems", "Health Informatics", "Production Systems", "Test Automation", "Async Programming", "Web Development"]
+    },
+    {
+      "id": "proj_05",
+      "name": "Agent Function Discovery Engine",
+      "project_details": [
+        "• Built automated Python tool that parses classes discovering callable functions",
+        "• Follows Google documentation guidelines with project-specific modifications",
+        "• Recursively scans catalog classes and subclasses for compliant functions",
+        "• Generates dictionary mappings for AI agent tool calling",
+        "• Enables LLMs to automatically discover and utilize available functions",
+        "• Eliminates manual function registration for agentic AI systems",
+        "• Creates standardized tool calling interfaces for AI agents"
+      ],
+      "star_statements": []
+    },
+    {
+      "id": "proj_06",
+      "name": "Live Transcriber (7.7k downloads, PyPI: https://pypi.org/project/livetranscriber/)",
+      "context": "Production-ready open source Python package for real-time speech transcription. Single-file implementation with comprehensive WebSocket handling, audio processing, and graceful resource management. Published on PyPI with proper versioning and dependency management.",
+      "project_details": [
+        "• Built production-ready Python wrapper around Deepgram WebSocket API for real-time speech-to-text transcription",
+        "• Implemented single-file architecture with zero external dependencies beyond core requirements",
+        "• Created thread-safe audio processing pipeline using NumPy and sounddevice for real-time microphone streaming",
+        "• Designed async/await WebSocket communication with automatic keepalive and graceful shutdown handling",
+        "• Built configurable callback system supporting both synchronous and asynchronous user-defined functions",
+        "• Implemented pause/resume functionality with state management and output file control",
+        "• Created comprehensive error handling with automatic resource cleanup and connection recovery",
+        "• Designed flexible configuration system allowing override of all Deepgram LiveOptions parameters",
+        "• Built production-ready package distribution with proper pyproject.toml configuration and PyPI publishing",
+        "• Implemented command-line interface with argparse for direct script execution",
+        "• Created comprehensive documentation with usage examples and API reference",
+        "• Designed modular architecture enabling seamless integration into larger applications",
+        "• Implemented real-time audio buffering with queue-based processing to prevent data loss",
+        "• Built automatic transcript file output with UTF-8 encoding and append mode",
+        "• Created robust signal handling for Ctrl-C interruption and graceful shutdown",
+        "• Implemented version management and Git tagging workflow for release automation",
+        "• Used uv for modern Python dependency management and virtual environment setup"
+      ],
+      "star_statements": [
+        "Deployed multi-threaded open-source Python package with real-time speech transcription and zero data loss",
+        "Architected single-file WebSocket wrapper around Deepgram API with async/await supporting sync and async callbacks",
+        "Designed flexible configuration system allowing override of Deepgram parameters while maintaining Nova-3 defaults",
+        "Implemented comprehensive resource management with automatic cleanup, graceful shutdown, and error handling",
+        "Created seamless PyPI distribution with proper dependency management enabling pip installation and integration",
+        "Built real-time audio buffering system using NumPy and sounddevice preventing transcript loss during high-frequency speech processing",
+        "Developed pause/resume functionality with state management allowing dynamic control of transcription output during runtime"
+      ],
+      "technologies": ["Python", "Deepgram API", "WebSocket", "Async/Await", "NumPy", "sounddevice", "PyPI", "uv", "Command Line Interface", "Real-time Audio Processing", "Thread-Safe Programming", "Package Distribution"],
+      "keywords": ["real-time transcription", "speech-to-text", "WebSocket API", "audio processing", "open source", "PyPI package", "async programming", "resource management", "thread safety", "production ready"],
+      "impact_metrics": ["Single-file architecture", "Zero data loss", "PyPI distribution", "Thread-safe processing", "Automatic resource cleanup", "Real-time audio streaming", "Production-ready package"],
+      "relevance_tags": ["Python", "Real-time Systems", "Audio Processing", "API Integration", "Open Source", "Package Distribution", "Async Programming", "WebSocket", "Production Systems"],
+      "todo": []
+    },
+    {
+      "id": "proj_07",
+      "name": "Indent Logger",
+      "project_details": [
+        "• Open source logging utility with indentation formatting",
+        "• Hosted on PyPI for pip installation"
+      ],
+      "star_statements": []
+    },
+    {
+      "id": "proj_08",
+      "name": "Sift-AlphaFold",
+      "project_details": [
+        "• Built 3D molecular visualization tool using AlphaFold protein structure predictions",
+        "• Implemented interactive visualization for protein structure analysis",
+        "• Created tools for exploring molecular structures and protein folding patterns",
+        "• Developed visualization interface for scientific research applications"
+      ],
+      "star_statements": [],
+      "todo": []
+    },
+    {
+      "id": "proj_09",
+      "name": "FastAPI Stock Gainers",
+      "project_details": [
+        "• Built real-time stock market tracking application with FastAPI and SQLAlchemy ORM supporting PostgreSQL & SQLite",
+        "• Implemented 18 API endpoints with JWT authentication and 3-model database schema supporting user management and stock tracking",
+        "• Integrated third-party Yahoo Finance API for real-time stock market data with comprehensive user authentication system",
+        "• Created comprehensive user authentication system with JWT tokens and password recovery",
+        "• Built admin dashboard for database management with user and stock tracking oversight",
+        "• Implemented responsive Bootstrap UI with color-coded gains/losses visualization",
+        "• Developed email system for password reset functionality with SMTP integration",
+        "• Created auto-refresh mechanism with 120-second intervals for real-time data updates",
+        "• Deployed production application on Render.com with 120-second auto-refresh and SMTP email integration supporting 36+ environment configurations",
+        "• Implemented custom stock symbol tracking with user-specific watchlists",
+        "• Built secure password visibility toggle and comprehensive error handling",
+        "• Used uv for Python dependency management and virtual environment setup"
+      ],
+      "star_statements": [],
+      "todo": []
+    },
+    {
+      "id": "proj_10",
+      "name": "Voice Driven SDE Prep",
+      "project_details": [],
+      "star_statements": [],
+      "todo": []
+    },
+    {
+      "id": "proj_11",
+      "name": "Resume Coach",
+      "project_details": [
+        "• Built full-stack AI-powered serverless web application for resume optimization",
+        "• Implemented LLM-based resume analysis using OpenAI GPT-4o-mini with LangChain framework",
+        "• Designed serverless AWS architecture with Lambda, API Gateway, DynamoDB, S3, CloudFront",
+        "• Created React 19 + TypeScript frontend with Vite build system and responsive design",
+        "• Built comprehensive CI/CD pipeline with GitHub Actions, ESLint, Prettier, automated testing",
+        "• Implemented session persistence with DynamoDB TTL and contextual follow-up chat system",
+        "• Developed AWS CDK infrastructure as code with multi-region deployment (us-west-2, us-east-1)",
+        "• Integrated SSM Parameter Store for secure OpenAI API key management",
+        "• Created structured feedback system with qualification analysis and skill gap identification",
+        "• Deployed production application with custom domain and SSL",
+        "• Implemented light/dark theme support and Markdown rendering for enhanced UX",
+        "• Built automated deployment pipeline with CDK synth, build validation, and production deployment"
+      ],
+      "star_statements": [
+        "Built full-stack GPT-powered AI app with LangChain on AWS Lambda, API Gateway, DynamoDB, S3, and CloudFront",
+        "Created React 19 + TypeScript frontend with CI/CD pipeline using GitHub Actions, deploying production application",
+        "Implemented session persistence with DynamoDB TTL and contextual follow-up chat system"
+      ]
+    },
+    {
+      "id": "proj_12",
+      "name": "Mentra",
+      "project_details": [],
+      "star_statements": [],
+      "todo": []
+    },
+    {
+      "id": "proj_13",
+      "name": "OpenAI-Agents-Python",
+      "project_details": [],
+      "star_statements": [],
+      "todo": []
+    },
+    {
+      "id": "proj_14",
+      "name": "Volcano Time Series Prediction",
+      "project_details": [
+        "• Built machine learning analysis system for volcano time series prediction using Python and advanced statistical modeling",
+        "• Used Seaborn for data visualization and statistical analysis",
+        "• Implemented TSFresh library for automated time series feature extraction and engineering",
+        "• Compared performance of multiple regression models on time series predictions",
+        "• Applied feature selection techniques to optimize model performance"
+      ],
+      "star_statements": [],
+      "todo": [],
+      "technologies": ["Python", "Seaborn", "TSFresh", "Time Series Analysis", "EDA", "Regression Models", "Feature Engineering"],
+      "keywords": ["time series", "volcano prediction", "exploratory data analysis", "feature engineering", "regression", "data visualization", "machine learning"],
+      "impact_metrics": ["Multiple regression models compared", "Automated feature extraction"],
+      "relevance_tags": ["Python", "Machine Learning", "Time Series", "Data Analysis", "Feature Engineering"]
+    }
+  ]
+}

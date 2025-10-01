@@ -1,0 +1,38 @@
+# Software Engineer specializing in AI development at VoyceMe
+
+## About the Job
+
+This job is sourced from a job board. Learn More
+
+VoyceMe is a pioneering consumer tech company on a mission to revolutionize the creation and consumption of manga, anime, and webtoons. We're not just a platform—we're a creative movement built by creators, for creators. As one of the fastest-growing studios in North America, we're dedicated to empowering artists, engaging vibrant communities, and pushing the boundaries of digital storytelling.
+
+Supported by top-tier investors such as Redpoint Ventures, Torch Capital, Red Sea Ventures, Clara Vista, M13, Bessemer Venture Partners, and RiverPark Ventures, VoyceMe is making a transformative impact in the digital entertainment landscape. Join us in shaping the future of manga and anime, making it more accessible, engaging, and sustainable for fans and creators alike.
+
+We're looking to hire a software engineer specializing in AI development to join our engineering team. This is your opportunity to join a startup and have a lasting impact on the creation of generative AI solutions. We're leading the industry in creating ethical AI that's built by artists and for artists to empower them in creating amazing pieces of art.
+
+This is a remote position and you will be working with teams across the globe. Our official collaboration hours are 9AM-6PM EST.
+
+## Responsibilities
+
+*   **Build the Future of AI Content**: Design, develop, and maintain scalable AI endpoints for dynamic image, text, and agent-based generation workflows.
+*   **Deploy at Scale**: Implement and optimize AI deployments on RunPod and similar cloud platforms for high-performance, low-latency production environments.
+*   **Innovate with Multimodal AI**: Collaborate closely with Product, Design, and Engineering teams to craft innovative AI-powered user experiences across web and mobile.
+*   **Maintain and Scale AI Infrastructure**: Create clean, maintainable, and extensible codebases for AI model serving, inference pipelines, and agent orchestration.
+*   **Drive AI Quality**: Continuously test, monitor, and improve the reliability, accuracy, and speed of our AI offerings.
+*   **Lead Research & Experimentation**: Stay ahead of the curve by exploring emerging AI techniques in generation, reasoning, and agentic systems.
+
+## Qualifications
+
+*   **3+ Years AI Engineering Experience**: Proven track record in building and deploying AI-powered applications in production environments.
+*   **Strong with Image & Text Models**: Experience working with image generation models (e.g., Stable Diffusion) and text generation models (e.g., LLMs like Llama, GPT).
+*   **RunPod / Cloud Deployment Expertise**: Comfortable with containerizing AI services (Docker) and deploying on RunPod, AWS, or similar GPU-based platforms.
+*   **Python Proficiency**: Strong coding ability in Python, particularly around AI frameworks such as PyTorch, Hugging Face Transformers, or similar.
+*   **Performance Mindset**: Deep understanding of optimization strategies for inference speed, GPU memory management, and cost efficiency.
+*   **Collaborative & Agile**: Strong communication skills and experience working in Agile environments, with a focus on iterative development and continuous improvement.
+
+## Bonus Points
+
+*   **Multimodal Experience**: Working with vision-language models, image captioning models, or custom agent-based pipelines.
+*   **DevOps & Automation Skills**: Familiarity with CI/CD pipelines, container orchestration, and scalable model versioning.
+*   **Open Source Contributor**: Participation in open-source AI communities or projects.
+*   **Manga & Anime Enthusiast**: A personal passion for manga, anime, and the creative world we're helping to reimagine with AI 

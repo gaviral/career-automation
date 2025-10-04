@@ -8,6 +8,6 @@ reference_repositories/
 .Trashes
 
 # Temporary/archive folders
-**/archive/
-**/archive_*/
-**/old_ignore_me/
+# **/archive/
+# **/archive_*/
+# **/old_ignore_me/

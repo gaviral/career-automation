@@ -1259,31 +1259,6 @@ People want you to do well.
 Yes.
 Yeah.
 And, like, they're they're gonna put you in situations just to kind of figure out what you're like.
-Because I think there's someone.
-Yeah.
-Sorry.
-Give me one second.
-Yep.
-What's up?
-My kiddo needs to pee and have a dinner.
-Okay.
-Do you wanna say hi?
-I'm putting you on the spot now.
-Actually, hi.
-She says hi.
-Hello.
-I You just let them sleep.
-Yeah.
-Yeah.
-I I I feel like we're almost done.
-God.
-Yeah.
-Sorry, Ni.
-I'll I'll take him right after the call.
-We're almost done, I think.
-Yeah.
-Yeah.
-Sorry, Ni.
 You were saying Yeah.
 No.
 I think that's kind of done.

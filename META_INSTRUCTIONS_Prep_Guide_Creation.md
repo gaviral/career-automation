@@ -340,6 +340,24 @@ These meta-instructions were extracted from successful prep guides and refined t
 
 ---
 
+## 📚 Existing Prep Guides Reference
+
+Quick reference to all interview prep guides in this repository.
+
+### Current Prep Guides:
+
+1. **Scribd - Software Engineer II (Backend + Data pipelines)**
+   - Markdown: `./13_Scribd/1_Software_Engineer_II_Backend_Data_pipelines/3_Recruiter_Screen_Prep_Guide.md`
+
+2. **Electronic Arts - Full Stack Software Engineer ML Cloud Applications**
+   - Markdown: `./2_Electronic_Arts/2_Full_Stack_Software_Engineer_ML_Cloud_Applications/8_Recruiter_Screen_Prep_Guide.md`
+
+3. **Vooban - Agent Developer**
+   - HTML: `./14_Vooban/1_Agent_Developer/3_Recruiter_Screen_Prep_Guide.html`
+   - Markdown: `./14_Vooban/1_Agent_Developer/4_Recruiter_Screen_Prep_Guide.md`
+
+---
+
 *Last Updated: October 2025*
 *Source: Extracted from EA Full Stack Software Engineer prep guide iterations*
 

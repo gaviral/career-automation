@@ -1,0 +1,31 @@
+{
+  "color_properties": {
+    "name": "Alice Chen",
+    "role": "Senior Color Engineer",
+    "expertise": ["colors", "rgb", "lipstick", "makeup", "visual properties", "foundation", "color processing"],
+    "slack": "@alice.chen",
+    "email": "alice.chen@example.com"
+  },
+  "team_processes": {
+    "name": "Bob Smith",
+    "role": "Engineering Manager",
+    "expertise": ["standup", "workflow", "deployment", "code review", "processes", "meetings", "development cycle"],
+    "slack": "@bob.smith",
+    "email": "bob.smith@example.com"
+  },
+  "architecture": {
+    "name": "Carol Lee",
+    "role": "Staff Engineer",
+    "expertise": ["design", "infrastructure", "systems", "architecture", "scalability", "performance"],
+    "slack": "@carol.lee",
+    "email": "carol.lee@example.com"
+  },
+  "ml_models": {
+    "name": "David Park",
+    "role": "ML Engineer",
+    "expertise": ["machine learning", "models", "training", "inference", "sagemaker", "ml pipeline"],
+    "slack": "@david.park",
+    "email": "david.park@example.com"
+  }
+}
+

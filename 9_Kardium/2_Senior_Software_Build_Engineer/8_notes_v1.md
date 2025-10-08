@@ -1,0 +1,1315 @@
+# notes ## Handwritten Notes and Preparation - disagreement: - 1-way door/2-way door - critical?
+- meetings : get on same page.
+- can't?
+- this way too critical for us to decide on.
+let's bring in the team.
+- IMPORTANT: balance on when to bring in the wider team.
+- $$ - what do you know about Kardium?
+- Atrial fib - catheter ablation - TODO: learn more about the company and the product.
+- health interest - amazon: training for build tools CI/CD (whatever kardium wants) - apply all that training - they talked you up.
+heard from them.
+company culture really good.
+- great for people.
+- AI - only if talked.
+questions on the paper important to only have bullet points.
+technical stuff can be very open ended.
+push your boundaries.
+**people want you to do well!!!** ---- ## Interview Preparation Discussion with Friends s, like, later on, it doesn't come out to be, like, a number that is vastly different from this range.
+That we have.
+And because then, like, it's kind of waste of time for both sides.
+And and I said that, yeah, I'm happy to move forward with this number, and we can go into the specifics later.
+I feel like I'm gonna do the same thing here.
+Instead of Yeah.
+Giving a number.
+Yeah.
+I guess arrange.
+They have arranged.
+Yeah.
+But Sorry.
+I need to be drinking water.
+I You are transcribing now.
+Cough.
+Cough.
+Cough.
+No.
+I actually stopped before.
+I was going to and like, right before.
+Yeah.
+If you were.
+Yeah.
+One second.
+Let me just save this.
+But, yeah, what what I was saying was the the guy actually said the range was lower than the the compensation in the pack like, in the job description, but then I confirmed, and it was actually, like, the base salary that he had given.
+I think that range in the job description was more so, like, total compensation.
+Alright.
+So, yeah, I think I'll try to do the same if she's really in insistent on Mhmm.
+Getting a number from me, I'll say the upper limit in that range.
+Or I or maybe higher.
+What what do you guys think?
+I don't think that's going to happen, though.
+I think she should that attitude.
+Oh, no.
+You're saying you're not gonna get that number.
+I think she's definitely gonna Oh, sorry.
+I cut you off.
+Like, I couldn't hear you because I think when I was say something, it just Yeah.
+For a second, I don't hear you even after I stopped talking.
+So Yeah.
+Go now.
+Sorry.
+What do you think is not gonna happen with her?
+Her asking or you getting the upper range?
+Her asking me, like, in really insisting on a number.
+Is what I was thinking not going to happen if I say like, I'm Mhmm.
+Similar thing.
+Like, I'm okay to move forward.
+With the range, more specifically, the specific number, I think, I'll have it as I learn more about the job in the during the interviews.
+I'm guessing that'll be okay.
+But, again, I've never like, been on that side of the talent.
+Then it's usually, like, the hiring manager is the person who deals with the HR and the the candidate to, like, work out the the salary.
+Like, the rest of the panel doesn't really get involved in the salary negotiation.
+Okay.
+I wondered The hiring manager and the executive who's involved will and the the talent person and, obviously, the candidate do the salary The rest of the panel doesn't really is in that part of it.
+For the April I guess if you are gonna be talking about the upper limit or something like that, I guess you could be saying you believe that you're experience highly overlaps with what they Mhmm.
+Are asking for.
+So Yeah.
+You would expect the salary range to reflect that.
+Mhmm.
+Even that, like, you're not committing to the upper bound or else, but you're kind of implying Yep.
+That the overlap means higher bound.
+Yep.
+I think it's gonna be the same Like, I don't think they're going to have a number for you Mhmm.
+Like, right at the beginning of this.
+Right?
+I think we're gonna be, like, for a big change.
+We're both happy with something in the range.
+Like, we're gonna be close on a number here.
+Mhmm.
+You $250,000 when the range is posted like, whatever it was.
+Yeah.
+Because yeah, as far as I'm aware, she's not gonna be able like, she's obviously not gonna be able to give you, like, an exact number right before.
+Talking.
+So I wouldn't be like, I would would be very surprised if she needed to get, like, an exact number out of you during this this first date.
+She she will be or she don't think she will.
+I'd be surprised.
+I need a dollar figure.
+Right.
+There was one interviewer or, like, one recruiter who just like, insisted it, like, five or six times.
+But, like, that only happened once with me.
+Yeah.
+I just I just don't think it's worth it as long as, like, you're on the same page, like, range wise.
+Like, I don't think it's worth to, like, an exact number at this point in time because they have me interviewed you yet.
+Right?
+So it's, as long as we know, k, we're kind of on the same page.
+We're not, like, wildly apart here.
+Yeah.
+Like, forward with it.
+Yeah.
+I actually had the, like, AI generate this kind of, like, question beforehand for the EA, and this now I I found the document.
+It was I said exactly this.
+Like, well, I'm looking for a competitive package that reflects my five plus years of experience building cloud native ML applications at Amazon.
+I I am open to discussing the full compensation package like the base equity benefits.
+What range does EA typically offer for this role?
+So that's kinda like I had that thing.
+I I feel like overlap thing that you're saying, maybe I can even explicitly mention.
+I think there's a great overlap in this, like, with Cardium.
+And I like, I'm so I'm hoping I'm looking for a competitive package that reflects the five plus years experience and the the big overlap there is in the expectations for this job and what I bring to the table Mhmm.
+Something something like that.
+Yeah.
+No.
+No.
+That's so good.
+Mhmm.
+Sweet.
+So Before I forget, I think you should be also prepared for her or any someone on the panel interview to also ask, like, what do you know about Cardi Like, you obviously don't have to have the whole company.
+Mhmm.
+But they like when you, like you know what atrial fibrillation like Yep.
+Loosely.
+You have an idea of what we do.
+Like, you know what the catheter, all of this stuff.
+It's not just, like I don't know.
+You're one of, like, 20 companies I interviewed.
+Like, who are you again?
+Like or apply to?
+Yeah.
+Yep.
+Be prepared with that.
+If you of the s node.
+Yeah.
+No.
+You don't need to know all of that.
+The significance of what node?
+So don't need to move.
+No.
+I was just like, you know what does?
+Like, you know we make a catheter for atrial fibrillation.
+You have a general idea of what atrial fibrillation is.
+Mhmm.
+You know?
+Actually Something wrong with the heart, like, I think.
+That's all I know, but I'll look it up more.
+Yeah.
+Like, if a regular heart rhythm.
+Right.
+It's, like, based in the atria.
+Which is the top part or the I think the top.
+Yeah.
+Ventricle.
+Four chambers of the heart would be great.
+I thought was it just left and right atrium and left and right ventry?
+Ventricle?
+Yeah.
+Yeah.
+Yay.
+They took us basically some like, a stray electrical signal is traveling in your heart that makes it fluctuate?
+Incorrectly.
+Heart is kind of quivering.
+Like, the atria is quivering instead of doing a nice full so then your blood can kinda stagnate in your in the atria.
+So then it's not because it's not as it should, and then that can lead to strokes because the blood is not moving.
+Around as it should.
+So, like, stagnant blood Mhmm.
+Leads to strokes, and it can be other thing other side effects as well because the blood's not flowing through your body, which is very important.
+You can have things like fatigue and low oxygen levels and things like that.
+Mhmm.
+And and you guys are doing like, using the catheter to do some ablation in certain parts?
+There are certain areas of your the left atrium, which create these bad signals, basically.
+Electrically isolate those sources from the rest so that only the good signal flows through the heart, and these bad signals don't come in and mess up, the electrical signals that should be going through the heart.
+Got it.
+So then our catheter is to kind of map, which is how you find the source areas and then also ablate and you ablate to electrically isolate.
+The source signals.
+Okay.
+To learn more about the company and the product catheter, this stuff.
+Okay.
+This review Mhmm.
+Kind of what Al said is more than enough.
+Yeah.
+Okay.
+I don't think and you already know we got, like, our FDA.
+Yep.
+Yeah.
+Like, I think that's plenty of information.
+Right.
+I think having oh, sorry.
+But, like, this the job that you're applying for hear you anything.
+Could you repeat that?
+Especially for the job you're applying for, like, that's there's a lot of information that you have there.
+That's Okay.
+I was just saying maybe having the exact name of what the FDA approval was.
+Like, I know I put that in my cover letter.
+So should at least know that.
+But yeah.
+Okay.
+Both the back and ablations.
+System, I think, is what it was.
+Yeah.
+They have post on LinkedIn as well, I guess.
+Yeah.
+Or you can it's probably in the news.
+There's a new news.
+You can just Google it.
+You should Yeah.
+I almost wonder if I wrote the wrong thing in there because I wrote the recent success of your pivotal clinical study for GLOBE Pulse field system is a landmark achievement.
+Is that all?
+That's the new name.
+Go to full screen.
+Okay.
+Thank god for a second, I was like, okay.
+This is going to be something to talk about during the interview now.
+No.
+We changed the name.
+I forgot.
+Okay.
+Hey.
+Look at me.
+I'm I'm ready to go.
+It's just like I've been following this company for a long time.
+Sorry.
+I'm still stuck with the old things.
+This is where I'll bring Al in.
+I I remember Al with talking about the You know Al.
+Uh-huh.
+Yeah.
+She always calls it this.
+Yeah.
+But but yeah.
+Like, this actually like, thing I was thinking about is why Cardium?
+Not just, like, knowing about it.
+And I think the the end on this is what I was thinking as in, like, like, I I need to find the actual like, genuinely why I'm interested in Cardium Right?
+Like, not just because, hey.
+I'm Mhmm.
+I need a job right now.
+Someone give me a job.
+I mean, that is also true.
+But Yeah.
+Like, the the the thing I was thinking about for for me is, like, I when I, like, tried to look quite a bit into, like, health care and all that, like, and even the project that I did was because, like, with AI coming in, seeing how a lot of things are getting automated, now, like, I'm able to do achieve a lot more and I've learned the actually, I should write this down as well.
+And I've learned the like, how to scale things at Amazon.
+Like, I feel like that was a good like like, that place I I learned how to operate at scale, how to, like, develop apps and and productionize things.
+So that, like, millions of peoples are people are being, like, served with whatever products I'm building.
+Having learned all that, felt like now I wanted to go closer to what I kinda always wanted to do, and maybe I can even bring in, like, how Capstone, I was approved for, like, multiple different projects, but I went for like, this neuro neuro like, the HoloLens project that I worked on.
+Like, health care or something because I can make it a big impact.
+Of course, I need to figure out better ways to say what I'm saying right now, but, like, kind of try to use the past, like, and and be, like, this is the organic next step because now I'm more so in a position to select where I wanna go as compared to just Yeah.
+Or or more more like I I've gotten the training Now I felt it's the right step would be to go in.
+And make the impact in health.
+Yeah.
+Like, you wanna apply all of training to something that you think is gonna make an impact to people.
+Yeah.
+I think all of this sounds good.
+I think it's a very like, what you're saying is very generic still.
+I think we're just this job in particular, it would be good to focus on like, yeah, you've always been interested in the medical field, So far, your path has taken you to Amazon, everything.
+You and you feel like you or basically, you gained all of this experience with the build tools in production for at scale or whatever.
+Mhmm.
+That's the main thing you wanna link to the build tools things for this build engineer.
+And, like, now you see this opportunity where you can come back to the medical field and Mhmm.
+Use all of those skills to make a bigger impact or a impact that you Mhmm.
+Care about more.
+I'm I'm not sure.
+But impact closer to yeah.
+I don't know.
+Did you some way you care more about it.
+Yeah.
+Thank you.
+I guess, like, impacting people's lives in a more meaningful way.
+Maybe.
+Yeah.
+Yeah.
+Combining my interest for CICD or whatever, like, the things that they're, like, the tools.
+Right.
+And then I think it wouldn't hurt at that point if it come up or hasn't, like, kinda throw in, like, oh, and then I know a few people who work at Cardium.
+You can throw my name in there.
+You can throw Mi's name in there.
+Like, they really like to Mhmm.
+Like, they really like working here.
+They really talk to up.
+Like Yeah.
+Stuff like that.
+Yeah.
+Yeah.
+Actually, that's a good point.
+Like, You know, like, okay, health care in general and then oh, like, I've heard for a really good place to work for because of, like, these specific people.
+Yeah.
+Like, company culture is really good.
+Yeah.
+Collaboration is really good.
+Maybe, like, have a feel Key points about what's actually good.
+Told you is good about cardio, not just like oh, she said I know.
+You can pull out whatever you think is the most meaningful to you, but, like, a lot of collaboration between people.
+Mhmm.
+You know, people are striving to be, like, we want the best product possible for our for our patients and everything.
+Like, we're aiming like, we're trying to create something great for people here.
+Like, we want Right.
+I don't know other things.
+Anything else that I've said that sounded good, I guess.
+No.
+I mean, like, the culture sounds, like, people are thinking about, like, like, the things that that you said.
+Right?
+Like, even the overlap that we talked about before, the doc documentation people, like, they need that kind of thing.
+So it's like, even if they don't have it right now, so that's a good thing because then I can come in to fill that gap if that is an issue.
+But I won't put it that way, obviously.
+I won't say Al got an issue.
+Said like yeah.
+Like, I wouldn't say that way.
+What's more so like, there, I would not mention that issue It's like something Yeah.
+Just that everyone kinda wants and this is something I have had these projects in.
+But maybe I won't bring this up during this particular question.
+I'll have to find a different place to bring in document I'll have, like, two or three points about, like, these things I need to convey to her.
+If smoothly possible organically.
+Yeah.
+Yeah.
+I feel like I don't know how much pressure should be on you to convey it because I think anything that's important, she's gonna ask you directly.
+Yeah.
+Like, I don't think you have to be in the back of your mind.
+Oh, I have to mention this now because I think that could just make it more difficult for you.
+Yeah.
+True.
+I I like and maybe during the open ended, part, like, towards the end, whatever I think that, hey.
+These things weren't covered.
+I then I can just like, I'll have my list in front of me kinda thing or, like yeah.
+Just like, I'll I'll I'll have oh, these are the four main things that I must convey to them.
+So three of them were already covered.
+When she has any questions for me, like, maybe as an extra note, kinda thing that, hey.
+Like, I also wanted to say that this is one thing that I am really good at, like x y z.
+Thought I like, it would be a good time to mention it.
+And here's a question that, like, I actually had for you, which is also something I need to remember to add there.
+Like, just have a question ready for them, like, two of them at least.
+Yeah.
+I think you should have a few questions ready for Mhmm.
+Each one.
+And I think depending what the type of question is, like, for the panel interview, the the technical panel interviews, like, I would feel free to ask If it's a general question, like, I don't know if this is what you would ask me, like, oh, what's your favorite thing about working at Cardium?
+Or, like, what do you like about your job?
+Like, I would it's fine to ask both technical groups that that same kind of question.
+Right?
+Like, you don't have to if it's a general question that it makes sense that you want Mhmm.
+The answer from a lot of different people, then Yeah.
+Like, go ahead and ask that to multiple people.
+Like, I don't think that's a that's a problem.
+Right.
+There was one question.
+I don't remember the good wording for it, but it's something along the lines of like, can you tell me how like like, maybe as a second or a third question, if there's time.
+Second question being, like, can you tell me, like, if there's a formal evaluation criteria, like, a yearly, like, performance review kind of thing?
+Just to get an idea of know, how frequently and how exactly we get feedback on like, if you're on the right path so that, you know, just in order to be an asset to the company and, like, contribute to the the team, Like, I'm I'm wondering what the process is.
+And can you give me an example?
+If it's a manager, like, of how someone use that criteria to stand out, not just, like, meet the bar, but even stand out.
+So, like, I I think that could be a good question so to get an idea.
+As you well, for me, I'll just leave this comment or you can tell me what you think, Al.
+But for me, as you're saying this, like, it's kind of the way you're saying it at least is still giving me vibes of where I'm I'm more concerned about you being concerned about being on the wrong track.
+Right.
+Sort of thing.
+So it's not like, the question should be more about promotions or moving up.
+Like, is there opportunity to really grow at Cardium sort of thing?
+I was actually thinking about that, but then I was trying to, like, maybe not say it explicitly about promotion because, like, I think that the work for Yes.
+Like That's why I think to grow is better.
+Like, are there Yeah.
+We sort of have or is there any type of formal review that Mhmm.
+You know, helps make sure that we're on the correct path for growth.
+Growth.
+Yeah.
+Something like that, maybe.
+I think growth could be the keyword there.
+Like yeah.
+It's a good word.
+You could even maybe ask about, like, like, learning opportunities.
+You know, do you is there opportunities to, like, learn things on the job?
+Or expand your don't know how to say this, but, like, you know, keep up with the does Cardium help, like, their employees, like, keep up with the latest and greatest information that's coming out there?
+I don't know exactly how to say that, but, like, Yeah.
+Like, I'm sure Professional development, maybe.
+Right.
+Yeah.
+They, like, at your other companies, maybe you had, you know, some resources for that.
+Like, does have any resources for Right.
+Okay.
+Yeah.
+Which would be part of, like, benefits, basically.
+Yeah.
+You could also ask questions about more of the benefits stuff.
+I know some of it was posted in the job ads, so make sure you don't Mhmm.
+Yeah.
+Ask if they have this, if they already mentioned that they met it.
+But Right.
+Right.
+I think the benefits specifically, I might ask Sara about that, like, the the health benefits and all of that stuff.
+Like, I would ask her.
+She'll have the most information about that.
+Right.
+But, like, growth and, like, review process for growth and, like, professional development I would try and ask that when you when you're in the interview with, like, whoever the hiring manager is.
+Right.
+I would Do you also ask Sara if he's, like, running out of questions or something.
+Is there I'm fine too.
+I just I wouldn't ask your hiring manager what the health benefits are because they're not gonna remember.
+Yeah.
+That's fair.
+Yeah.
+I yeah.
+No.
+I I don't think I was gonna ask about the health benefits anyway, like, from yeah.
+Because I think I'm already covered with Am.
+Yeah.
+So it's like, if anything, don't give me any benefits.
+Give me the pay like, you know, the increase the base pay instead.
+Obviously, that no one does that.
+But Yeah.
+Just No.
+Yeah.
+You're just being our benefits package.
+Yeah.
+Yeah.
+I you know, you can ask about this development stuff too.
+To Sara.
+Like, let's say, like, in your growth like, the growth opportunities and what kind of you know, I don't know.
+Feedback, like, you you can expect from people, like, on ongoing basis or, like, more formal kind of feedbacks if that's something that's, like, built into the System.
+The cult Yeah.
+I can tell you what it but Yeah.
+It's good to have of these questions where she can answer in a positive way.
+You know?
+You're kind of like Yeah.
+Setting her up for success.
+Like, I can I can tell you what happens now?
+It's like, it's not a secret if you want me to tell you what we do.
+No problem.
+Yeah.
+No.
+Leave a mask.
+Okay.
+No.
+Like, I think you should ask, but I Yeah.
+I can tell you.
+Because maybe there could be a more intelligent question in there or something that that's specific to that.
+But, like, when I ask her, it could be more like a follow-up that like, she would probably give the same answer as what you would give right now.
+But then I'll have, like, a follow-up question prepared for maybe some some nuance in there that might actually be worth asking, obviously, like, the Yeah.
+Asterisk there.
+Yeah.
+It depends what level of detail she also goes in I don't know exactly what she would tell you, but it's, like, it's not a secret.
+Process or anything.
+We have we have, like, a formal review period every year.
+And then it involves your peers reviewing you and then you your manager reviewing you, and then you also review your manager, and you review other peers.
+And we all you kind of, like, your managers automatically reviews you, and then you also select a few people that you think would be you worked with you worked with during the year and that you think would be good people to review you and then to kind of try and balance it out.
+So, like, Mhmm.
+One per arguing, like, twenty people or whatever, but, like, they kind of parse it out like that.
+And then there are different categories.
+Are important to the company, and you kind of review yourself on those categories as well.
+Mhmm.
+And then that was almost almost same as Amazon.
+Like, it sounds like Yeah.
+I think it's a pretty standard way of doing things.
+And then those reviews well, if if you have a formal process, I think this is pretty standard way of doing it.
+And then that'll kinda gets collated together, and then you basically just go through everything with your manager Mhmm.
+One at a time kind of discussing, k.
+These are the things that everyone thought was good, I thought was good, you thought were good.
+These are areas of improvement.
+Like, what do you think we can do?
+Mhmm.
+Like you said, goals for the next year, like, career goals kind of thing.
+And Right.
+Kate, talk about you know, with the manager, is there anything that the manager needs to do kinda help you do that?
+Are there courses or something you should be looking at, or is it opportunities during year that you should be taking for, like, specific projects or Mhmm.
+Kind of Right.
+Yeah.
+One thing we did was, like, sometimes we would set up time for personal growth and development or even, like, writing the promotion documents.
+So we had to write our own documents.
+In or at least work experience summaries.
+So that the manager could write the promotion document for you.
+But so in our stand up, like or at least the sprint planning, we would actually take some time.
+Like, out of the two weeks, we'll I'll take, like, half a day or, like, one quarter of a day this in the in the two upcoming weeks to work on that or or, like, some time for learning taking a different course that kind of thing.
+So I was wondering if I should ask I I was thinking about asking, like, if you guys have something similar.
+Not in that those grave details, but more like like, maybe do you do you guys have allotment for time or some resources where people can learn about all the ever changing AI world?
+Or just not not even bring AI just in general.
+Yeah.
+I think maybe don't say AI specifically because it could be, like, atrial fibrillation treatment world kind of things that we need to know or, like, medical device regulations, like, those kind there's a lot of different things that know, you might need to be learning about.
+That's not just, like, AI specific.
+So I wouldn't, like Right.
+Get too focused on the AI.
+Right?
+I I wanna don't even plan on bringing that up unless they want to like, hear more about that project.
+Got it.
+Then, yeah, go forward.
+Because there's a lot of other things that people it it depends on the job, obviously, but there are a lot of other things that are specific to kind of the eight AF world and Mhmm.
+The medical device world that that need to learn about that's Right.
+AI.
+So you don't wanna seem like you're just focused on learning that stuff.
+Yeah.
+Yeah.
+Mhmm.
+Yeah.
+Like, I think, yeah, like, if anything, if it it really feels like this would I I don't see it yet, but if like, it'll it'll have I I don't wanna force AI talk in in here at all.
+Like, if if it's something like, hey.
+It's it could be useful or something for these senior build engineer position if there's something mentioned that's close to it.
+Maybe a mention, if at all.
+Is what I was thinking.
+Like, polarizing as well.
+Like, I don't know what the opinions are of all of the software engineers that are there.
+So you don't wanna, like, I feel like you don't wanna show which side of it you're on.
+Right?
+Because I don't which side they're on.
+Oh, okay.
+That's right.
+Like, I think people use it for, like, some information, but, like, you know, some of them are a lot more old school.
+And I don't know if that means that they're, like, gonna be really against it.
+And, like Right.
+They might not say that's why they don't wanna hire you, but they're like, oh, this is another AI person.
+Like, Right.
+Yeah.
+Easy.
+Yeah.
+I would stay away from that.
+I would say that probably vibe for any of these jobs that are not Mhmm.
+Hiring you for Yeah.
+Yeah.
+Specific AI role.
+You're gonna have people there who are, like, well, they don't like like AI because it's sort of a threat to their work or they feel like there's so much more competition now because all these people are doing AI.
+So, like, I think they have, like, a mental radar where they're trying to weed out all of the people who just vibe coding or whatever.
+So Exactly.
+You wanna give off any of those sort of things.
+I would Yeah.
+Lean towards.
+Mhmm.
+But you've been through all of this.
+Like, you went you don't tell them this.
+I'm just saying, like, you Yeah.
+Went to school for this.
+You've sort of Mhmm.
+Been through the wringer of doing all of this pre AI.
+Of thing.
+Yeah.
+Like, that's your the expertise that you're bringing.
+Yeah.
+And then if they, like, can you use it as well?
+Be like, yes.
+I figured out how to use it.
+Right?
+Like, I've done all of that.
+Like, I have all of the base knowledge.
+Like, I can do it myself.
+As well.
+Right.
+And figured out this is how I can kind of use it to my advantage, but only if Yeah.
+Only if fast.
+Yeah.
+That's what I'm thinking because I just I don't think Like, you just don't know.
+Right?
+You don't want to, like, bias, like, a specific panel member and then, like, they have some sway.
+Right?
+And they're going, like, oh, well, I No.
+No.
+That's not for you.
+Just I'm thinking to add to this, like, in this world as well, like, the Mhmm.
+The medical world, I would say you still need to lean towards the fact that Yeah.
+It's really dangerous for all of these people to start using AI, to be on Like, maybe in your head, you think, yeah, eventually AI can help a lot.
+But I would not disclose that.
+Or, like, you could mention, you believe that but it's currently not at Mhmm.
+The state Or health Like, I could be literally thinking in a way where it's, like, if like, in a in a very small component, like, to automate certain things.
+That are completely safe.
+Rather, if anything, it's making things more safe.
+But they may not share that opinion.
+Right?
+Like Yeah.
+Yeah.
+So it's like AI can be very yeah.
+Difficult to, yeah, traverse.
+I I just I'll stay away from it unless they specifically ask, and I really like what you said.
+That, yeah, I've I've figured it out.
+I know how to use it.
+I'd rather, like like like, say it in a good way that I yeah.
+Mhmm.
+I have learned how to, like, ins and outs of it.
+I've understood it.
+But I use it, like, cautiously.
+Mhmm.
+But I I use the full power of it, but with with with all the caution needed.
+With some skip Yeah.
+I think that's good to make sure, like, we because also what you're saying, though, if somebody brings it up, you'll talk about it.
+I think whenever you talk about it, with here, at least, you should always highlight your own skepticism about it.
+Yeah.
+Like Even Is the tool that I know I know is available to me, but I know that I need to, like, ensure it is giving me the correct information.
+Like, I can't just believe it a 100% of the Yeah.
+I I mean, you'll you'll also have your own stories about or your own experience.
+You can see how all of the code just grows massively, and there's a lot of stupid stuff in there.
+Like, you've seen it.
+Yeah.
+Right.
+Garbage code and Yeah.
+Exactly.
+Add way more lines than what's needed Mhmm.
+For something and Yeah.
+I think you know, you've seen it be out of control, I guess.
+Also, like, if they start asking you about it, like, you don't wanna put it down a 100%.
+Right?
+It's like you do like using it.
+Yeah.
+Like, good.
+Yeah.
+Things that Right?
+So you don't wanna be one of those people who's like, no.
+AI is garbage.
+Like, here's all the bad things about AI.
+Right?
+Yeah.
+K.
+Now know there are good things.
+Like, here are the good things that I've learned how to use.
+Mhmm.
+Obviously, I have to be very careful with it.
+Like, I have all this base knowledge.
+This is how I kinda and use it to my advantage.
+Like Mhmm.
+Yeah.
+Honest the power of it.
+Like, if asked.
+Right?
+Like, because you don't wanna be, like, too far off of the, like Yep.
+He's never gonna use AI for anything.
+Like, we eventually, like Yeah.
+Yeah.
+Yeah.
+Yeah.
+No.
+That's fair.
+Harness the full potential with but with cautious and, like, pre but with all the prejudice Like, figure out some better ways to communicate that.
+But, yeah, I think yeah, that that those are good points to to have.
+Yeah.
+Yeah.
+Sweet.
+Yeah.
+I think those are mostly all the things.
+I think maybe one thing that I remember when we were working on the resume, was we said we'll talk about it maybe right now or maybe before the technical.
+I don't remember.
+But, like, going through more so, like, the job description itself and kinda like, if if let's say you were going through my resume and, like, the the for this particular job, like, what would your opinion be or, like, what kind of question would you ask if you were in Sara's shoes?
+Yeah.
+For Sara in particular, it's hard to Mhmm.
+Know.
+I think she's gonna be given very specific criteria from the hiring manager.
+Okay.
+Like, this is the kind of person we need to know, like, the we need they need to have these specific skills.
+So I think we've already talked about it.
+Like, I'm sure they like, some kind of checklist.
+Like, they need to know this language.
+They need to have Right.
+So so oh, you completely froze.
+Hello?
+Hello?
+I'll see the Lisa's first.
+Phone died.
+I figured.
+Like, when when I saw your name, I was like, alright.
+Now I'll be talking from Al.
+Perspective or someone like that.
+Yeah.
+Let me plug my phone.
+Oh, no.
+You're plugged in.
+Okay.
+Yeah.
+I feel like we went through often.
+Was there any I don't have the job ahead in front me right now, but was there anything on the ad that you didn't have?
+Of of So think they need.
+Yeah.
+Like like, I I and and also, like, like, what my question was also, like, around Mhmm.
+It is there something that it would be good to kind of relearn?
+Like, because I know you gave me a lot of information earlier, but, like, what this team does like, I'll tell you maybe what I remember and maybe that could help me about this.
+Like, my understanding was that software developers build different things about that back end where you're storing all the experimentation data.
+And all that.
+But this team Yeah.
+Essentially, like, when the software develop software team is finished building their stuff, they're pushing their code, like, the build, making sure that that like, is going through all the checks and, like, the pipeline around it Mhmm.
+Like, things are going smoothly, and it's very time critical, I remember.
+Yeah.
+That's my understanding of what they do.
+Would definitely I think that's a good question to ask.
+Like Mhmm.
+You know, can you clarify, like, exactly how your team kinda fits into the wider, like, software environment at Cardium or something like that.
+Mhmm.
+I think that would be a definitely a good question to ask.
+Because that's my general understanding of what they do.
+But they've also been doing, like, a lot of, like, re Reorg.
+Yeah.
+Don't shifting the teams around.
+So, like, that would be a very good question.
+To just Yep.
+This these are the build tools for, like, the mapping software and stuff?
+That's my understanding.
+But it's not clear in the post if that's what it's for.
+Think it says that.
+It says the Globe software in there.
+So I'm and based on the hiring manager, I'm pretty sure that's what it is, but I I don't know because, yeah, I guess you don't wanna be build engineer for all the internal tools or something.
+Yeah.
+That's there's a lot.
+But I yeah.
+I think that's a very good question to ask.
+Them to get, like, the specific details, but that's my general gist of what's going on.
+Mhmm.
+Maybe I could ask Sara if she knows more about like, because the hiring manager would have given her some details, what we look maybe, maybe not.
+I don't think it hurts to ask her.
+And if she doesn't have the information, she'll just be like, you know, that's a great question.
+Question to talk to the hiring manager about.
+Okay.
+Yeah.
+I think in general, this is, like, you wanna come across as curious and excited about this job.
+You wanna know more.
+You're not just Mhmm.
+Like, that's what your attitude shouldn't be like.
+You don't wanna also don't wanna overload her with a bunch of questions.
+But just as long as you're confident that you've shown her that you are really interested and Yeah.
+Mhmm.
+Curious about learning more about the job and moving forward, I think.
+Yeah.
+Because I think, like, it's important that you also know what you're getting into and, like, you it's a good fit as well.
+Right?
+And I think they are going to appreciate that, like, you know, you're trying to make sure that this is a good job for you.
+Like, you're not just trying to take anything.
+Right?
+It's like Yeah.
+Yeah.
+On the same note, like, you have your story straight for the gap.
+Oh, yeah.
+Between now and Amazon.
+I'm going with, like, what you said.
+Like like, just like, what we had discussed.
+It's like, I had like, I I actually had a prepared, written it down somewhere.
+But yeah.
+That like, me, my manager, and their manager, they're all laid off There was a team reorganization.
+And I used that as an opportunity to like, you know, take a break, like, all the five years at Amazon.
+Well, like, I've Mhmm.
+Gained a lot of experience.
+Now if was a good time for me to take a break, step back, spend some quality time with my family, even explore the very like, like, was like, the area where I'm living in, which I as much.
+And then I also used that time while I was relaxing to like, I'm I'm just generally curious and like, I I love to learn.
+So during that time, I also, like, took this machine learning program where I, like, learned about, like, x y z, like, EDA, neural networks, and, like, the ground up.
+Even learned, like, some like, how how to build my own charge.
+I I built my own Charge GPT like, a a baby version, obviously.
+But, hey.
+It was responding to what I was saying, right, with with the right things.
+And yeah, it was a great learning experience with with that.
+And now I felt like it's it's like it's it's time to be back in the market.
+I'll use a better word for market, but, yeah, it's it's, like, for the for the in the in the job market and yeah, like, I I I guess it could be also a good place if I haven't already mentioned that, like, the health thing and, like, because I've had the passion for CICD tools and, like, maintaining whatever software making it is maintained well and have the right tools and things are automated.
+I think there was automation they wanted in the Yeah.
+This.
+So I felt like could even you could even say something like you've been looking for like, opportunities where you can really add value now and the medical Yeah.
+Something like that.
+Kind of, like, use yeah.
+You took all of this time off, and you felt like this was a good time Yeah.
+In your life to be more critical about which company, what cause, whatever you're actually Yeah.
+Working towards.
+Yeah.
+I I I like that because I I think even in a way, like, I yeah.
+Yeah.
+Like, I I will be like, it hopefully, I think all the other interviews go well, and then I can actually, like this may actually be the case where I am looking at hey, I have these two or three options fingers crossed, and I'll be selecting where I wanna spend my time.
+Right?
+Like, because I do want to make an impact.
+Like yeah.
+Yeah.
+Yeah.
+I think that's good.
+No.
+That yeah.
+That all sounds good to me.
+I'm just thinking about your resume in general.
+I would be I would be ready to answer questions about, like, what very specific roles you had in any of the projects that you have listed there.
+Right?
+Like, they want to make sure that you are not just, like, oh, well, my team did this.
+Mhmm.
+I was just kinda on the edge.
+I I didn't do anything, but, like, this is what our team accomplished.
+Right?
+Like Yeah.
+What specific Things are pieces of that did you do?
+Right?
+Like, what did you contribute to it?
+I I actually got like like, this was something that I Mhmm.
+Caught myself, like, in a bad situation in in this thing where in one interview, it's like I had written down what my team had done along with Mhmm.
+What I did in there.
+So after that, I just never put in what my team did.
+Like, everything in the resume, I've made sure it's something that I did.
+Yeah.
+And that I can talk about.
+So I think there's that.
+Mhmm.
+And I do like, I I will have to go through my resume in entirely to make sure all the numbers that I have, like, the why is 92% improvement, like, what did I really calculate?
+Was it, like, things went from, like, yeah, just three to four?
+Like, or something or versus, like, things going from 90 yeah.
+Like, 40,000,000,000 to 50,000,000,000 or whatever.
+Yeah.
+So how how is it measured?
+Like, I've did write some some things about it, but, yeah, I do need to polish it.
+Yeah.
+Yeah.
+I think that would definitely be good to have.
+Yeah.
+Specifics about the projects that we put in there, Any numbers that you have in there, like, something to back it up.
+Like, they don't know the details of it, but, like Mhmm.
+Like you're saying, this is how it calculated it or Yeah.
+This is the metric that we were using.
+Mhmm.
+I think you know, they might ask details about, okay, like, what went well on this project?
+What didn't go well?
+Like, what would you wanna do differently if you had the chance?
+Mhmm.
+Yeah.
+Yeah.
+That those are I wonder, like, yeah, when and like like, now I think my biggest challenge is moving forward is to have these things, like like, whatever write up I have like, have it curve like, all corrected.
+Because there was, like, AI making things up in there.
+Mhmm.
+In the in the notes I have, and then the next challenge would be to like, because I can't really read anything during the interview.
+Mhmm.
+Like, have it practice, I guess.
+So yeah, like Yeah.
+I think that's all I'm seeing.
+At at least in terms of Yeah.
+What my next steps are, I just wanted to kinda run it by you guys as well.
+Like I think it's okay to have some notes with you.
+Like, I would definitely, like, you can definitely have your resume, like, there to, like, reference.
+Like, that's not a problem.
+Mhmm.
+I would like, I think I personally like, tell me if you think this is wrong.
+I think it would be fine to have notes there, like, if you have, like, specific numbers.
+So it's like Mhmm.
+You know, okay.
+Like you said, this this number here, 95% increase.
+Like, how did you measure that?
+Be like, you know, if you remember off the top of your head, that's great.
+And then you'd like, oh, yeah.
+Like, I wrote that down.
+So we were measuring it this way.
+We went from this number to this number.
+Like, I would explicitly say, like, oh, I wrote that down.
+Let me just look at this.
+Like, this is what we did.
+Right?
+Like Yeah.
+If you're gonna be looking at the notes, I would just you know, make a mention of that.
+Yeah.
+Like, one second.
+I've got my notes here.
+This is how we Right.
+Measured it.
+Right?
+Like, I Yeah.
+I I would do that.
+Mhmm.
+If like, to remind you of any stories you wanna tell or points or things, I would just have like, on the screen where you would be looking or if you do have a spot, I would put some bullet points there.
+Mhmm.
+Maybe, like, a floating and sticky note.
+Mhmm.
+Maybe.
+She is gonna have one in person interview at least.
+Yeah.
+So But I don't know.
+Like, maybe you don't even need maybe just look have bullet points and look at them right before the interview or something.
+Mhmm.
+Yeah.
+But definitely don't have any paragraphs No.
+I no.
+Don't, like, read off, like, there's no compare or, like, it make it seem like, oh, I'm just typing that question into chat GPT.
+Here is what they are saying to me.
+Right?
+Yeah.
+Yeah.
+But it was like, specific numbers from your past that, like, are you're pulling up to, like, help collab like Mhmm.
+Confirm what you put in there, I think that's perfectly fine to say, like, yeah.
+Let me check what I wrote down.
+Yeah.
+It was this number.
+Like, this is what we were using to Right.
+To calculate that.
+If they ask something and you Mhmm.
+Don't remember it on your resume or you're not a 100% sure if they're talking about a particular point.
+You can even be like, oh, let me quickly pull up my resume.
+Right.
+Okay.
+So you're talking about this or that or yeah.
+Yeah.
+I think any time like Al was saying, you just make it clear what you're looking at.
+Correct.
+Yeah.
+Good.
+When you're looking at something, and you can pull up whatever you need.
+And Yeah.
+I think I think that's perfectly fair.
+Like Yeah.
+Yeah.
+Because they're like, they might even ask, okay.
+We're gonna go through your resume now.
+It's like, okay.
+Let me pull that up, and like, you know, have it there.
+Yeah.
+And then, obviously, when you're in person, I would definitely bring, like, a printed out Mhmm.
+Copy of the resume.
+Like, yeah, resume.
+Me let me look at this.
+Even notes, maybe, like, bullet point notes.
+Yeah.
+I think they have it, and then you get the vibe of what's going on.
+Right?
+Like, you know?
+Okay.
+Yeah.
+You know, you could just say, oh, these are some, like, pieces of information I wanted to make sure, like, you had by the end of the interview kind thing, like Mhmm.
+Important.
+Notes for myself.
+Like, you can even I think even, like, writing down the questions that you wanna ask them Yeah.
+And having those at the in person interview, definitely not a problem.
+Like, okay.
+Yeah.
+Think I asked all the questions.
+Let me just check.
+I have them written down.
+Mhmm.
+Yeah.
+I asked you all of these.
+That's great.
+Yeah.
+I wrote that down.
+Yeah.
+Like, even the video wanted to ask for questions.
+Mhmm.
+Look back at them and say, oh, you had these questions, but I would have the bullet points there.
+So you're not reading the question.
+Yeah.
+Mhmm.
+Yeah.
+It would be fine to check, okay, I have this question.
+Look back at them.
+Ask the question.
+Mhmm.
+Be like, okay.
+And I have this and, like, you can keep looking back at the bullet points.
+Yeah.
+Yeah.
+I think that anything like that is fine.
+But like Ni said, I think it's important to just have bullet points if you don't want sentences Yeah.
+Written that you are, like, obviously reading.
+Reading.
+Yeah.
+Because that is It's too you get lost so easily anyway if you do that.
+Exactly.
+Like, it it actually, like, yeah, like, it's like, I I actually tried reading from my notes before, like and I had like, even though they were bullet points, they were, like, kind of paragraphs.
+I actually, like, lost train of thought because Yeah.
+I was, like Exactly.
+Like, I'm trying to find certain points from this and from the other thing and trying to merge the two.
+Like, yeah, it's Yeah.
+The dynamics of it just makes no sense.
+Like yeah.
+Yeah.
+So And then it's really awkward, and they're going, like, why is he reading something?
+Like, it's just Yeah.
+Yeah.
+Like, even if, like, the like, they're not thinking about, like, if the other person cheating or not, like, that kind of stuff, like, like, first of all, that is the first biggest thing because that's what I felt I was interviewing other people at Amazon.
+Like, they were actually even typing something, so that was weird.
+But yeah, even if like, the next issue would be that it's just awkward.
+Like, you know, right now, we're trying like, you you need to be aware of of, you know, just the environment kinda thing.
+Like like, we are having a conversation just don't make it awkward by by just reading it off.
+Yeah.
+Something and things are going in random tangents for because just because you had written it down in a certain specific way.
+This is what I'm gonna say right now.
+Exactly.
+I have a script.
+We are gonna get through it.
+We're gonna I'll get to it.
+Yeah.
+22.
+22.
+That other thing for the technical interviews, I I would be prepared like, do some coding in front of them.
+Mhmm.
+I don't know how the software team does it.
+When I had my interviews, these were for coop.
+And it was it was not supposed to be a software job.
+They were asking me to, like, code on a whiteboard, and I was having to, like, write things out.
+I don't know if the software team does that, like, hand coding during the interview.
+I would just be like, don't be shocked if they do ask you to do that.
+I actually have more experience with that than coding on the yeah.
+So Okay.
+Good.
+So, like, I just Pretty decent.
+It could be either way.
+Yeah.
+Yeah.
+Yeah.
+And I would also, like, when you're doing any of the technical questions, like, kinda talk through your thought process.
+Right?
+Like, just make sure you're, like, telling them, okay.
+I think this is the best way to do that.
+I'm gonna do this.
+Or if you even if there's a point where you're, like, you know what?
+I know there's a better way to do this, but I would have like, would look it up in this way.
+Correct.
+I can't remember don't know.
+It depends.
+Like, I can't remember the specific function.
+Yeah.
+Or you know?
+Right?
+Like Yep.
+Call out when you know that there's something that you're missing here, but it's like I this is where I would look this up.
+Like, I have this information.
+I just don't know the exact Yeah.
+Because they they wanna see your thinking process, like how you're thinking when you're actually sitting next to me in a chair and just like Yeah.
+What kind of questions are you gonna ask me or what like like, what like, when you get stuck, what are you gonna do?
+Yeah.
+So it's like Exactly.
+Like, I know that yeah.
+Like, I think Ni gave a good example Like like, earlier we talked about this today earlier today.
+Yeah.
+Just, like, have like, let's assume that the value for this thing is three, and let's move forward with that.
+But, like, I would look it up first in this particular reference or just Google search.
+Yeah.
+Like so maybe assuming that I'll move forward with the approach or, like, as you said, like, there's a better approach not just like a concrete answer, but like I yeah.
+I would do that.
+But like before that, I'd need this, this, this.
+I'll look those things up and then yeah.
+Make some assumptions and then move forward with that.
+Yeah.
+Great.
+Like, don't get stuck just because, like, you you don't know the perfect response to this.
+Right?
+Like, it definitely just, like, talk your way through it and, like, show that, you know what?
+I know that there's a different way of doing this.
+Like, I'd wanna, like, look for this information or Mhmm.
+Know, you're not just, like, blindly going into something with, like, no thought of the better or best way to do this.
+Right?
+Like, you're like, I know there are different ways of doing it.
+I might take a minute to just check which way I wanna do this and go forward from there.
+K.
+Yep.
+Mhmm.
+Again, I had, like, three software questions all about MATLAB.
+So, like, I'm not the best source of information on this, but that's definitely, like, the things that in general they're looking for, like, definitely problem solving.
+Know, when you're in that kind of situation.
+And I'll have to think of build related issues.
+But, yeah, Yeah.
+Yeah.
+Okay.
+I I hope they're related to that because, yeah, you give, like, a brain teaser.
+Like, as much as I enjoy them, I don't know if I'll be able to do them on time.
+Anything where you feel stuck or whatever, like, just take your time and just talk it through.
+Yeah.
+Talk through it.
+I feel like that Mhmm.
+The worst thing is when you're sitting there and silence and the person's just thinking and you're like, how will you tell us what you're thinking about?
+Right?
+Because, like, Yep.
+No.
+A hundred percent.
+Because there also, I don't think they're always looking for, like, a 100% correct.
+Right?
+Like, there are some questions where it's just, okay.
+Like, you should know what object oriented programming is.
+Like Yeah.
+Exactly.
+You know?
+Like, there's some, like, base level questions where it's okay.
+If they don't they don't get this as the problem, but then there's some, like, more open ended ones where it's like, okay.
+Let let's see how far we go.
+And you know, how a lot of the interviews are, they have to, like, like, a base question.
+Right?
+And then, like, okay.
+They answer in this way, and then people might just have follow-up questions that Mhmm.
+They haven't planned.
+Right?
+So, like, they don't know how you're gonna answer.
+Like, they don't know what the best answer is.
+They're just oh, that's an interesting way of doing that.
+Like, why did you do this?
+Or have you thought about going this way?
+Oh, you're stuck here.
+Why are you stuck here?
+Like, what kind of information would you need?
+To keep going?
+Like, the technical stuff can start very open ended, so it could just be Yeah.
+I feel like they might also I feel like they do this at least for mine or something.
+They might push your boundaries.
+Yeah.
+Just to So, like What do you do when you get Maybe at some point expect to not have the answer.
+Like Mhmm.
+Yeah.
+You know?
+And it's like, Mhmm.
+Yep.
+Yep.
+I think it's also okay to say, oh, you don't know.
+It's like, make sure you don't just give up.
+Yeah.
+Don't yeah.
+Don't give Don't give up on every question, but, like, Only don't know.
+I would No.
+I'm not gonna pretend.
+Maybe they'll twist.
+Yeah.
+Yeah.
+Yeah.
+Like, I yeah.
+This team or something, like, is kind of highlighting, like, okay.
+You'd probably be stuck at this point.
+This is how you would collaborate.
+Or Mhmm.
+Mhmm.
+Something to figure it out.
+I don't know.
+I'm really hoping to get some more interviews before Cardium because I know the chances might be higher with Cardium.
+And because I do not do well in interviews in general.
+Like yeah.
+So yeah.
+Yeah.
+I I know it's, like, way easier said than done, but, like, you just gotta, like, Yeah.
+Just be yourself and just be confident in it.
+Like, no one like, going into it, like, people want you to do well.
+Right?
+Because, like, they want to find someone Yeah.
+Good.
+Right?
+So, like, they are rooting for you to, like, have the answers.
+Right?
+Because they're gonna be like, this is great if you can do all of this.
+Like, if you're doing well, they're gonna be happy because they They're following someone.
+Yeah.
+Exactly.
+Right?
+So, like, everyone is in there hoping, like, you do amazing.
+Yeah.
+So almost even maybe even see it as a collaboration thing because I think that's what at least from my side, when I used to interview people, like, it was, like, we're I I wanna see what kind of person would be sitting next to me, like, know, on that seat.
+And Yeah.
+Like, let's help kinda collaboratively get to like, the the the right answer or not even that, but more so just yeah.
+Kinda treat it as a collaborative environment.
+And if I have to ask them something, like, of course, ask, like, intelligent questions.
+Yes.
+Or as make I or make assumptions.
+Intelligent assumptions that, hey.
+I don't know this.
+This Is it okay if I assume this?
+Or may like, I'll I'll kinda read the vibe if they're actually answering.
+Oh, wait.
+I I can look this up for you or, like, here's yeah.
+Assume it's this kinda yeah.
+If they're not saying anything, then I'll think I'll go with the Yeah.
+Intelligent assumption.
+Yeah.
+I yeah.
+It's hard for me to say, like, which way they're gonna go because I've never been involved like, a pure software interview, so I don't know, like, I don't know exactly how they set it up.
+Mhmm.
+Right?
+Like Yeah.
+When we're doing interviews for my stuff, like, I would as long as the answer is not, like, staring at you right there, like, then I, like, definitely encourage the questions.
+So I guess, like, you know, we have a lot of, like, verbal questions that, like, that we put together.
+So, like, if someone asked me, like, can you just repeat those numbers or something like that, like, yeah, that's great.
+But if I'm going this is a this is an apparatus to test the tensile strength of because it's more mechanical stuff, like tensile strength of this string, and someone asked me, tensile strength?
+I'm gonna be like Mhmm.
+Yeah.
+Yeah.
+A 100%.
+You know?
+So it's like, Yeah.
+I have You know, definitely, like, ask the questions, but, like, make sure you're, like, you're calm.
+You've Yeah.
+Heard what they've said.
+You've, like, taken all the information in that they've given you and be like, okay.
+This is what we have.
+Yeah.
+I think I need more info from you.
+Because of x y z or Yeah.
+Yeah.
+Like, I have been in one of those situations where I did have to ask a basic question, but, like, I was like, yeah, this is something I I just remember, like, missing during, like or or yeah.
+But, like, from the word itself, I feel like this is what it does.
+Like, when they asked me about that, I I forgot the question actually.
+But, yeah, like, from the word itself, I tried to extrapolate.
+I'm assuming it's something along this and the context around it is this.
+So with that in mind, like, I'm just thinking out loud.
+I I believe it would be something along the lines of, like, x y z and and all that.
+And then they would kind of, like, help me in between, and then I would move forward.
+But yeah.
+It is what it is kinda situation when Yeah.
+That happens.
+That's for sure.
+Like, if you don't know, you just don't know.
+I'm just more saying, like, just make sure you've, like, taken in the information that has been given.
+Right?
+And, like, don't just, like, barrel into it without, like Yeah.
+Okay to ask for a moment of pain.
+Yeah.
+Yeah.
+Like, understanding what has been asked of you and, like, make sure you, like, comprehend what they have given you Right.
+Yeah.
+With this.
+That's fair.
+And I think asking for a clarification is no problem or just, like, even when you're starting, just a quick, like, k.
+You know, it obviously depends, like, how like, what kind of questions you're being given and stuff, but, like, okay.
+I think this is what you're after.
+So, like, this is the path that I'm gonna be going down Mhmm.
+Kind of thing.
+Like, if it if it's complicated enough that it's, like, makes sense for you to, like, clarify at the beginning.
+Right?
+Like, I guess you gotta, like, also Yeah.
+Gauge.
+Read the room a little bit.
+Right?
+Like, you don't wanna be, like, over clarifying every single little thing.
+Right?
+Like, they might ask you a bunch of like, basic questions to start with.
+Maybe.
+I don't know.
+Yeah.
+Just to, like, you know Yeah.
+Like, I just wanna know.
+Yeah.
+Like, make sure we're on the same level.
+Like, you'd Yeah.
+You have coded before.
+Like, like, we're there, but, like, it is a senior position, so, like, they might not even do that kind of stuff.
+Right?
+Like Yeah.
+There's a level of understanding that they would expect you to have based on your background.
+Yeah.
+One thing I did notice in my resume, I ended up writing one of the things that I did not like, even after all that careful review, I wrote Windows batch scripting as one of the skills.
+And and that took core.
+I I wrote core skills are like, Python.
+I don't know if if you see it.
+The last thing in the second line for core Mhmm.
+And even the automated Windows deployment, Chocolatey, like, I've dabbled with that once or twice.
+And I just, like I don't know what went in my head when I was doing this.
+Now I'm like, I don't know if I should have put that in there.
+I guess I could just read more about it.
+It was a core skill at the time.
+It was Well, it's there now.
+I would definitely look up some stuff about it then.
+Yeah.
+Yeah.
+Yeah.
+Shouldn't have written chord there.
+Well, I mean, there there's a counterpart to it, like, in Linux, maybe I could say that I have done that.
+As a core thing and yeah.
+Although I should have mentioned that.
+Yes.
+Mhmm.
+But but okay.
+Okay.
+Yeah.
+No.
+Like yeah.
+Just sorry.
+I just digressed.
+But to your point, yeah, I will ingest what they're saying even when I'm stuck and yeah.
+Mhmm.
+Yeah.
+But, yeah, like, everyone is very friendly.
+Like, people like, are going into these interviews with, like, high hopes as well.
+So it's like, everyone is on your side in the interview.
+Right?
+So it's it's hard to, like, inject interview.
+It's it's good to go in like, you're saying, like, it's a collaborative environment.
+Mhmm.
+And look, try not to see it as as not some test or something like that.
+Yeah.
+Yeah.
+Like, they just I have to write that down.
+That's a big thing.
+People want you to do well.
+Yes.
+Yeah.
+And, like, they're they're gonna put you in situations just to kind of figure out what you're like.
+You were saying Yeah.
+No.
+I think that's kind of done.
+Just go in it Look.
+Oh, I was saying that they like, they're not trying to like, test you necessarily or whatever.
+They are gonna put you in situations or things to just see how you react and Yeah.
+Learn more about you when it's basically just like, these are gonna be your coworkers or, whatever.
+Like, Mhmm.
+Kind of treat them like that already in a way.
+Mhmm.
+Mhmm.
+You know?
+Yeah.
+Like, within limit.
+Right?
+Yes.
+Within limit.
+Hey, man.
+How are you doing?
+Yes.
+I was like, don't be too familiar.
+Just no.
+No.
+Yeah.
+Like, of course, within limit.
+Yeah.
+Yeah.
+Is great advice.
+I think that will help me a lot because I like, even though I, like, say that that, yeah, like, it's a collaborative environment and all that.
+From the interviewer's perspective, like, when I'm in the zone, like, I'll have to remind myself again and again.
+Like yeah.
+Maybe I'll record myself, like, do a mock interview.
+And and just try try and see that that I I do tend to get a lot nervous.
+So maybe I'll have something written down on a piece of paper.
+Like, they want you to do well, and and we are collaborating.
+Yeah.
+Okay.
+No.
+This this was, like like, last time this was super duper helpful.
+Thank you so much.
+I know I've taken a lot of your time, but We're happy you got so many interviews and things.
+Like Mhmm.
+Thank you.
+Like, things are happening, which is exciting.
+So They are.
+They're suddenly, like, just one day was, like, alright.
+Two, three, and then I'm, like, four.
+I I think I have total of four right now or five.
+I don't know.
+But let's see.
+Anyway, they're all just screening recruiter screening so far.
+So That's still very cool.
+
+---

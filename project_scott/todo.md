@@ -1,9 +1,0 @@
-- Come up with a dummy example for inferred match.
-- Come up with a better name for an inferred match.
-- See if there are other criteria to tackle.
-- Use cases:
-  - Matching:
-    - Direct match
-    - Partial match
-    - No match
-    - Inferred match (if some information can be inferred by a combination of two or more existing points, creating a logical understanding)

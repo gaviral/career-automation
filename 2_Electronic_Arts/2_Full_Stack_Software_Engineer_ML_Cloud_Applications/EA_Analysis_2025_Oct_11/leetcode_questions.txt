@@ -1,0 +1,87 @@
+# LeetCode & System Design Questions
+
+## 1. How HashMap Works Internally
+
+**Question**: Explain how a HashMap works internally, including:
+- Hash function mechanism
+- Collision resolution (separate chaining vs open addressing)
+- Load factor & rehashing
+- Time complexity for get/put operations
+- Java/Python implementation differences
+
+**Key Points to Cover**:
+- Bucket array structure
+- Hash code → index calculation
+- Handling collisions (linked list, tree in Java 8+)
+- Resize threshold (0.75 default)
+- O(1) average, O(n) worst case
+
+## 2. Design an End-to-End System for an Employee System
+
+**Question**: Design a complete employee management system (UI + backend)
+
+**Requirements** (assumed):
+- Employee CRUD operations
+- Authentication & authorization
+- Department management
+- Role-based access control
+- Reporting & analytics
+
+**System Components**:
+
+### Frontend (UI)
+- Framework: React/Vue/Angular
+- Pages: Login, Dashboard, Employee List, Employee Detail, Reports
+- State management: Redux/Vuex
+- API client: Axios/Fetch
+
+### Backend
+- Architecture: REST API or GraphQL
+- Framework: Spring Boot / Node.js / Django
+- Database: PostgreSQL/MySQL
+- Caching: Redis
+- Authentication: JWT / OAuth2
+
+### Database Schema
+```sql
+-- Employees table
+employees (
+    id, first_name, last_name, email, 
+    department_id, role_id, hire_date, salary
+)
+
+-- Departments table
+departments (
+    id, name, manager_id
+)
+
+-- Roles table
+roles (
+    id, name, permissions
+)
+```
+
+### API Endpoints
+- `POST /api/auth/login` - Authentication
+- `GET /api/employees` - List employees
+- `POST /api/employees` - Create employee
+- `GET /api/employees/:id` - Get employee
+- `PUT /api/employees/:id` - Update employee
+- `DELETE /api/employees/:id` - Delete employee
+- `GET /api/departments` - List departments
+- `GET /api/reports/headcount` - Analytics
+
+### Non-Functional Requirements
+- Scalability: Load balancing, horizontal scaling
+- Security: HTTPS, input validation, SQL injection prevention
+- Performance: Caching, database indexing
+- Monitoring: Logging, metrics, alerting
+
+### Deployment
+- Containerization: Docker
+- Orchestration: Kubernetes
+- CI/CD: Jenkins/GitHub Actions
+- Cloud: AWS/GCP/Azure
+
+**Note**: "SET" in transcript likely refers to "System" or similar (possible mistranscription)
+

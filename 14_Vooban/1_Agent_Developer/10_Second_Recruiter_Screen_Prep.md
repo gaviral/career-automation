@@ -47,38 +47,38 @@
    - __Message queue__ *(SQS)* __for async processing__
 
 2. __RAG Pipeline__*:*
-   - __Vector database__ *for* __semantic search__
+   - __Vector database__ *for* __semantic search__ *(Pinecone initially, then AWS SageMaker with FAISS)*
    - __Initially used third-party classification models__
    - __Later replaced with local Ollama models__ *for* __topic detection__
-   - __Embedding generation__ *using* __OpenAI embeddings__
+   - __Embedding generation__ *using* __OpenAI embeddings__ *(text-embedding-ada-002)*
 
 3. __Agent Orchestration Layer__*:*
-   - __OpenAI Agents Python SDK__ *(open source)*
+   - __OpenAI Agents Python SDK__ *(open source - github.com/openai/openai-python)*
    - __Multiple specialized agents__*:*
-     - __Documentation Retrieval Agent__
-     - __SME Contact Agent__
-     - __Documentation Generation Agent__
-     - __Quality Validation Agent__
-   - __Agent communication__ *via* __message passing__
+     - __Documentation Retrieval Agent__ *(RAG + semantic search)*
+     - __SME Contact Agent__ *(Slack API integration)*
+     - __Documentation Generation Agent__ *(GPT-4 + templates)*
+     - __Quality Validation Agent__ *(confidence scoring)*
+   - __Agent communication__ *via* __message passing__ *(async via SQS)*
 
 4. __Integration Layer__*:*
-   - __Slack responses__
-   - __Ticketing system integration__
-   - __GitHub PR monitoring__
-   - __Documentation repository updates__
+   - __Slack responses__ *(Slack Web API + Events API)*
+   - __Ticketing system integration__ *(Internal Amazon ticketing REST API)*
+   - __GitHub PR monitoring__ *(GitHub webhooks + Actions)*
+   - __Documentation repository updates__ *(Git automation + S3)*
 
 **Q: "What vector database did you use and why?"**
 
 **Answer**:
 *We* __evaluated multiple vector databases__*:*
-- __Initially prototyped with Pinecone__ *for* __quick setup__
+- __Initially prototyped with Pinecone__ *for* __quick setup__ *(cloud-hosted, managed service)*
 - __Migrated to AWS-native solution__ *for* __cost optimization__ *and* __tighter integration__
-- __Used SageMaker vector databases__ *with* __FAISS__ *for* __production__
+- __Used SageMaker vector databases__ *with* __FAISS__ *(Facebook AI Similarity Search library)* *for* __production__
 - __Chose it because__*:*
-  - __Better latency__ *(sub-100ms queries)*
-  - __Tighter AWS integration__
-  - __Cost savings__ *(~40% cheaper than external)*
-  - __Better security compliance__
+  - __Better latency__ *(sub-100ms queries vs. 150-200ms Pinecone)*
+  - __Tighter AWS integration__ *(same VPC, IAM roles)*
+  - __Cost savings__ *(~40% cheaper than external - $800/mo vs. $1.3K/mo)*
+  - __Better security compliance__ *(data stays in Amazon network)*
 
 **Q: "How did you handle the different match types - complete, partial, zero, and inferred?"**
 
@@ -86,27 +86,27 @@
 *This was* __one of the most complex parts__*:*
 
 1. __Complete Match__*:*
-   - __High confidence score__ *(>0.85 similarity)*
-   - __Direct retrieval from vector DB__
-   - __Immediate Slack response__
+   - __High confidence score__ *(>0.85 cosine similarity from FAISS)*
+   - __Direct retrieval from vector DB__ *(sub-100ms)*
+   - __Immediate Slack response__ *(GPT-4 formatting)*
    
 2. __Partial Match__*:*
-   - __Medium confidence__ *(0.6-0.85)*
-   - __Identified specific gaps__ *in documentation*
-   - __Triggered SME outreach__ *for* __missing information__
-   - __Held response until enriched__
+   - __Medium confidence__ *(0.6-0.85 similarity)*
+   - __Identified specific gaps__ *in documentation* *(keyword extraction)*
+   - __Triggered SME outreach__ *for* __missing information__ *(Slack API)*
+   - __Held response until enriched__ *(async queue processing)*
    
 3. __Zero Match__*:*
-   - __Low confidence__ *(<0.6)*
-   - __Classified topic area__ *using* __Ollama models__
-   - __Routed to correct SME__ *from* __reference table__
-   - __Generated new documentation__ *from scratch*
+   - __Low confidence__ *(<0.6 similarity)*
+   - __Classified topic area__ *using* __Ollama models__ *(llama3.2 locally)*
+   - __Routed to correct SME__ *from* __reference table__ *(DynamoDB lookup)*
+   - __Generated new documentation__ *from scratch* *(GPT-4 + templates)*
    
 4. __Inferred Match__*:*
    - __Related docs found__ *but* __answer requires reasoning__
-   - __LLM synthesis__ *across multiple documents*
-   - __Confidence disclaimer__ *in response*
-   - __Flagged for human review__
+   - __LLM synthesis__ *across multiple documents* *(GPT-4 context stitching)*
+   - __Confidence disclaimer__ *in response* *(e.g., "Based on related docs...")*
+   - __Flagged for human review__ *(SNS notification to SME)*
 
 **Q: "How did you identify the right subject matter expert for a topic?"**
 
@@ -120,9 +120,9 @@
 - __Validated SME availability__ *via* __Slack status API__
 
 *The* __topic classification__ *used*:
-- __Initially: third-party NLP models__
-- __Later: fine-tuned local Ollama models__ *on our domain*
-- __~92% accuracy__ *on* __topic routing__
+- __Initially: third-party NLP models__ *(AWS Comprehend Custom)*
+- __Later: fine-tuned local Ollama models__ *on our domain* *(llama3.2 + custom embeddings)*
+- __~92% accuracy__ *on* __topic routing__ *(up from 73% with third-party)*
 
 **Q: "How did you integrate with Slack? Walk me through that."**
 
@@ -130,40 +130,40 @@
 *We used* __Slack Events API__*:*
 
 1. __Event Subscription__*:*
-   - __Subscribed to message events__ *in specific channels*
-   - __Real-time webhooks__ *to our* __Lambda function__
+   - __Subscribed to message events__ *in specific channels* *(Slack Events API webhooks)*
+   - __Real-time webhooks__ *to our* __Lambda function__ *(API Gateway endpoint)*
    
 2. __Message Processing__*:*
-   - __Parsed question text__
-   - __Classified intent__ *(question vs. statement)*
-   - __Extracted key entities__ *(product names, processes)*
+   - __Parsed question text__ *(regex + NLP tokenization)*
+   - __Classified intent__ *(question vs. statement using GPT-3.5-turbo)*
+   - __Extracted key entities__ *(product names, processes via NER - Named Entity Recognition)*
    
 3. __Response Delivery__*:*
-   - __Posted via Slack Web API__
-   - __Formatted with markdown__ *and* __code blocks__
-   - __Threaded responses__ *to maintain context*
-   - __Reaction emojis__ *for* __confidence levels__
+   - __Posted via Slack Web API__ *(chat.postMessage method)*
+   - __Formatted with markdown__ *and* __code blocks__ *(Block Kit UI)*
+   - __Threaded responses__ *to maintain context* *(thread_ts parameter)*
+   - __Reaction emojis__ *for* __confidence levels__ *(✅ high, ⚠️ medium, ❓ low)*
 
 4. __Error Handling__*:*
-   - __Retry logic__ *with* __exponential backoff__
-   - __Fallback to DM__ *if channel unavailable*
-   - __Graceful degradation__ *if* __vector DB down__
+   - __Retry logic__ *with* __exponential backoff__ *(boto3 retry config)*
+   - __Fallback to DM__ *if channel unavailable* *(conversations.open + chat.postMessage)*
+   - __Graceful degradation__ *if* __vector DB down__ *(cached responses from DynamoDB)*
 
 **Q: "You mentioned ticketing system integration. How did that work?"**
 
 **Answer**:
 *This was* __phase 2 of the project__*:*
 
-- __Connected to internal ticketing system API__
-- __Monitored new tickets__ *in real-time*
-- __Filtered for documentation-related questions__
+- __Connected to internal ticketing system API__ *(Amazon's internal REST API)*
+- __Monitored new tickets__ *in real-time* *(EventBridge polling every 30s)*
+- __Filtered for documentation-related questions__ *(keyword matching + GPT-3.5 classification)*
 - __Attempted automated resolution__*:*
-  - __If high confidence__*:* __posted answer directly__
-  - __If uncertain__*:* __flagged for human + provided suggestions__
+  - __If high confidence__ *(>0.85)*: __posted answer directly__ *(via API comment)*
+  - __If uncertain__ *(<0.85)*: __flagged for human + provided suggestions__ *(draft response)*
 - __Learned from developer responses__*:*
-  - __Parsed comments__ *and* __resolutions__
-  - __Updated documentation__ *based on* __new information__
-  - __Improved vector database__ *continuously*
+  - __Parsed comments__ *and* __resolutions__ *(NLP parsing)*
+  - __Updated documentation__ *based on* __new information__ *(auto-commit to Git)*
+  - __Improved vector database__ *continuously* *(re-embedding + FAISS index update)*
 
 **Impact**: __82% reduction in ticket resolution time__, __240+ dev-hours saved/month__
 
@@ -173,23 +173,23 @@
 *This was* __advanced engineering__*:*
 
 1. __Context Window Management__*:*
-   - __Segmented long conversations__ *into* __logical chunks__
-   - __Implemented context caching__ *using* __Redis__
-   - __Selective context injection__ *(only relevant history)*
+   - __Segmented long conversations__ *into* __logical chunks__ *(max 8K tokens per chunk)*
+   - __Implemented context caching__ *using* __Redis__ *(ElastiCache with 5min TTL)*
+   - __Selective context injection__ *(only relevant history via semantic search)*
    
 2. __Prompt Optimization__*:*
-   - __Templated prompts__ *with* __variable injection__
-   - __A/B tested different prompt structures__
+   - __Templated prompts__ *with* __variable injection__ *(Jinja2 templates)*
+   - __A/B tested different prompt structures__ *(tracked via CloudWatch metrics)*
    - __Reduced token usage by 40x__ *through*:
-     - __Concise system prompts__
-     - __Smart context truncation__
-     - __Semantic summarization__ *of old context*
+     - __Concise system prompts__ *(from 500 tokens → 50 tokens)*
+     - __Smart context truncation__ *(remove redundant info)*
+     - __Semantic summarization__ *of old context* *(GPT-3.5-turbo for compression)*
    
 3. __Advanced Techniques__*:*
-   - __Achieved 8M token conversations__ *in* __200K token model__
-   - __Rolling context window__ *with* __key fact extraction__
-   - __Multi-turn conversation state management__
-   - __Custom caching layer__ *on top of* __OpenAI API__
+   - __Achieved 8M token conversations__ *in* __200K token model__ *(GPT-4-turbo)*
+   - __Rolling context window__ *with* __key fact extraction__ *(Redis state machine)*
+   - __Multi-turn conversation state management__ *(DynamoDB session storage)*
+   - __Custom caching layer__ *on top of* __OpenAI API__ *(semantic hash for cache keys)*
 
 *This* __wasn't just using API wrappers__*—*__built custom engineering on top__
 

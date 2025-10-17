@@ -2,7 +2,7 @@
 
 ## About Cresta
 
-Cresta is on a mission to turn every customer conversation into a competitive advantage by unlocking the true potential of the contact center. Our platform combines the best of AI and human intelligence to help contact centers discover customer insights and behavioral best practices, automate conversations and inefficient processes, and empower every team member to work smarter and faster. Born from the prestigious Stanford AI lab, Cresta's co-founder and chairman is [Sebastian Thrun](https://www.linkedin.com/in/sebastian-thrun-59a0b273/), the genius behind Google X, Waymo, Udacity, and more. Our leadership also includes CEO, [Ping Wu](https://www.linkedin.com/in/pingwu/), the co-founder of Google Contact Center AI and Vertex AI platform, and co-founder, [Tim Shi](https://www.linkedin.com/in/tianlinshi/), an early member of Open AI.
+Cresta is on a mission to turn every customer conversation into a competitive advantage by unlocking the true potential of the contact center. Our platform combines the best of AI and human intelligence to help contact centers discover customer insights and behavioral best practices, automate conversations and inefficient processes, and empower every team member to work smarter and faster. Born from the prestigious Stanford AI lab, Cresta's co-founder and chairman is [Sebastian Thrun][1], the genius behind Google X, Waymo, Udacity, and more. Our leadership also includes CEO, [Ping Wu][2], the co-founder of Google Contact Center AI and Vertex AI platform, and co-founder, [Tim Shi][3], an early member of Open AI.
 
 Join us on this thrilling journey to revolutionize the workforce with AI. The future of work is here, and it's at Cresta.
 
@@ -49,4 +49,12 @@ As an AI Agent Engineer, you'll be at the forefront of deploying AI agents that 
 ## Important Notice
 
 We have noticed a rise in recruiting impersonations across the industry, where scammers attempt to access candidates' personal and financial information through fake interviews and offers. All Cresta recruiting email communications will always come from the @cresta.ai domain. Any outreach claiming to be from Cresta via other sources should be ignored. If you are uncertain whether you have been contacted by an official Cresta employee, reach out to recruiting@cresta.ai
+
+---
+
+## Links
+
+[1]: https://www.linkedin.com/in/sebastian-thrun-59a0b273/
+[2]: https://www.linkedin.com/in/pingwu/
+[3]: https://www.linkedin.com/in/tianlinshi/
 

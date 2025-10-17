@@ -1,0 +1,52 @@
+# Forward Deployed Engineer (AI Agent)
+
+## About Cresta
+
+Cresta is on a mission to turn every customer conversation into a competitive advantage by unlocking the true potential of the contact center. Our platform combines the best of AI and human intelligence to help contact centers discover customer insights and behavioral best practices, automate conversations and inefficient processes, and empower every team member to work smarter and faster. Born from the prestigious Stanford AI lab, Cresta's co-founder and chairman is [Sebastian Thrun](https://www.linkedin.com/in/sebastian-thrun-59a0b273/), the genius behind Google X, Waymo, Udacity, and more. Our leadership also includes CEO, [Ping Wu](https://www.linkedin.com/in/pingwu/), the co-founder of Google Contact Center AI and Vertex AI platform, and co-founder, [Tim Shi](https://www.linkedin.com/in/tianlinshi/), an early member of Open AI.
+
+Join us on this thrilling journey to revolutionize the workforce with AI. The future of work is here, and it's at Cresta.
+
+## About the Role
+
+At Cresta, the AI Agent team is on a mission to create state-of-the-art AI Agents that solve practical problems for our customers. We are focused on leveraging the latest technologies in Large Language Models (LLMs) and AI Agent systems, while ensuring that the solutions we develop are cost-effective, secure, and reliable.
+
+As an AI Agent Engineer, you'll be at the forefront of deploying AI agents that address real-world challenges. In this role, you will work closely with customers as well as our software and machine learning engineers, ensuring high-impact AI Agent deployments and contributing to the continuous improvement of our core AI platform. You'll develop intelligent AI agents, integrate them seamlessly with external systems and offer hands-on technical expertise to ensure successful deployments.. This position requires strong engineering skills, adaptability, and customer engagement. If you are self-driven, analytical, and eager to leverage AI in practical applications, this role is for you.
+
+## What You'll Do
+
+- **AI Agent Development**: Develop, configure, deploy, and optimize AI agents using Cresta's AI platform and tools.
+- **System Integration**: Build AI agent integrations with external systems (APIs, databases, CRMs, etc.) to ensure seamless workflow integration.
+- **Performance Optimization**: Optimize AI agent performance (e.g. fine-tune prompts and configurations) and troubleshoot issues in complex enterprise environments.
+- **Requirements Gathering**: Collaborate with customers and internal stakeholders to gather technical requirements and translate business needs into AI Agent solutions.
+- **Demos & Iteration**: Conduct interactive demos and present compelling proof-of-concepts to prospective customers, proactively gather feedback, and iteratively refine solutions to meet objectives.
+- **Project Coordination**: Define project milestones, create implementation plans, and coordinate execution with internal teams to ensure on-time delivery. Provide a tight feedback loop to our product and engineering teams — identifying gaps, building custom tooling, and influencing the roadmap through real-world deployment learnings.
+- **Partner Cross-Functionally**: Collaborate with PMs to define agent goals, iterate rapidly based on customer feedback, and shape product capabilities that maximize customer ROI.
+- **Technical Guidance**: Serve as a trusted technical advisor for the customer, guiding best practices for AI agent adoption and usage. Provide technical guidance on AI agent best practices, including architecture design, security considerations, and scalability planning.
+
+## What We're Looking For
+
+- **Education**: Bachelor's or Master's degree in Computer Science, Engineering, or a related field.
+- **Experience**: 3+ years of experience in software development, AI/ML engineering, or system integration.
+- **Programming Skills**: Proficiency in Python and Golang, with the ability to write clean, efficient code.
+- **AI/ML Knowledge**: Familiarity with AI/ML concepts. Hands-on experience with large language models (LLMs), and prompt engineering techniques are strongly preferred.
+- **AI Agent Frameworks**: Strong understanding of general AI agent frameworks, function calling, and retrieval-augmented generation (RAG). Hands-on experience of building such a system is strongly preferred.
+- **Cloud & DevOps**: Experience with cloud platforms (AWS, GCP, or Azure) and DevOps practices (CI/CD, containerization, monitoring).
+- **Integration Expertise**: Hands-on experience with integrating systems via APIs, webhooks, and data pipelines.
+- **Communication**: Excellent communication and project management skills.
+- **Analytical Approach**: Ability to use data-driven decision-making, including A/B testing and performance monitoring, to refine solutions.
+- **Collaborative Builder**: You thrive in cross-functional environments, working hand-in-hand with PMs and engineers to turn real customer problems into scalable AI solutions.
+
+## Perks & Benefits
+
+- We offer Cresta employees a variety of medical, dental, and vision plans, designed to fit you and your family's needs
+- Paid parental leave to support you and your family
+- Monthly Health & Wellness allowance
+- Work from home office stipend to help you succeed in a remote environment
+- Lunch reimbursement for in-office employees
+- PTO: 3 weeks in Canada
+- Compensation for this position includes a base salary, equity, and a variety of benefits. Actual base salaries will be based on candidate-specific factors, including experience, skillset, and location, and local minimum pay requirements as applicable. We are actively hiring for this role in the US and Canada. Your recruiter can provide further details.
+
+## Important Notice
+
+We have noticed a rise in recruiting impersonations across the industry, where scammers attempt to access candidates' personal and financial information through fake interviews and offers. All Cresta recruiting email communications will always come from the @cresta.ai domain. Any outreach claiming to be from Cresta via other sources should be ignored. If you are uncertain whether you have been contacted by an official Cresta employee, reach out to recruiting@cresta.ai
+

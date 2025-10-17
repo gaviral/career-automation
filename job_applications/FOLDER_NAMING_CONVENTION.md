@@ -35,8 +35,8 @@ Each job application folder follows this pattern:
 ```
 job_applications/
 ├── 2_Electronic_Arts__Full_Stack_Software_Engineer__ML_Cloud_Applications/
-├── 9_Kardium__Senior_Software_Build_Engineer/
-├── 13_Scribd__Software_Engineer_II__Backend_Data_Pipelines/
+├── 9_Kardium__Senior_Software_Build_Engineer__Globe_System/
+├── 13_Scribd__Software_Engineer_II__Backend_Plus_Pipelines/
 └── 16_Cresta__Forward_Deployed_Engineer__AI_Agent/
 ```
 

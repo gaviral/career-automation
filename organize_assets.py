@@ -41,11 +41,18 @@ def organize_assets():
     
     print(f"Found {len(job_folders)} job application folders")
     
+    # File extensions to move to _ASSETS
+    ASSET_EXTENSIONS = {
+        'pdf',  # PDF files (resumes, cover letters, JDs)
+        'qta', 'wav', 'mp3', 'm4a',  # Audio files (interview recordings)
+        'png', 'jpg', 'jpeg', 'gif', 'webp'  # Image files
+    }
+    
     results = {
         'created': [],
-        'moved': [],
+        'moved_files': [],
         'already_exists': [],
-        'no_raw_jd': []
+        'skipped': []
     }
     
     for job_folder in sorted(job_folders):
@@ -61,28 +68,45 @@ def organize_assets():
             results['already_exists'].append(str(job_folder.relative_to(base_dir)))
             print(f"  • _ASSETS folder already exists")
         
-        # Move Task_1_raw_jd.txt
-        raw_jd = job_folder / 'Task_1_raw_jd.txt'
-        if raw_jd.exists():
-            target = assets_folder / 'Task_1_raw_jd.txt'
-            if not target.exists():
-                shutil.move(str(raw_jd), str(target))
-                results['moved'].append(str(job_folder.relative_to(base_dir)))
-                print(f"  ✓ Moved Task_1_raw_jd.txt to _ASSETS/")
-            else:
-                print(f"  • Task_1_raw_jd.txt already in _ASSETS/")
+        # Find and move asset files
+        moved_count = 0
+        for file in job_folder.iterdir():
+            if not file.is_file():
+                continue
+                
+            # Check if file extension matches asset types
+            ext = file.suffix.lstrip('.').lower()
+            if ext in ASSET_EXTENSIONS or file.name == 'Task_1_raw_jd.txt':
+                target = assets_folder / file.name
+                if not target.exists():
+                    shutil.move(str(file), str(target))
+                    moved_count += 1
+                    print(f"  ✓ Moved {file.name} to _ASSETS/")
+                else:
+                    print(f"  • {file.name} already in _ASSETS/")
+        
+        if moved_count > 0:
+            results['moved_files'].append(f"{job_folder.relative_to(base_dir)} ({moved_count} files)")
         else:
-            results['no_raw_jd'].append(str(job_folder.relative_to(base_dir)))
-            print(f"  • No Task_1_raw_jd.txt found")
+            if len(list(assets_folder.iterdir())) > 0:
+                print(f"  • All asset files already moved")
+            else:
+                results['skipped'].append(str(job_folder.relative_to(base_dir)))
+                print(f"  • No asset files to move")
     
     # Summary
     print("\n" + "="*60)
     print("SUMMARY")
     print("="*60)
     print(f"Created _ASSETS folders: {len(results['created'])}")
-    print(f"Moved raw JD files: {len(results['moved'])}")
+    print(f"Folders with moved files: {len(results['moved_files'])}")
     print(f"Already had _ASSETS: {len(results['already_exists'])}")
-    print(f"No raw JD to move: {len(results['no_raw_jd'])}")
+    print(f"No asset files to move: {len(results['skipped'])}")
+    
+    if results['moved_files']:
+        print(f"\nMoved files in:")
+        for folder in results['moved_files']:
+            print(f"  - {folder}")
     
     return results
 

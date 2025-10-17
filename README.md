@@ -4,16 +4,16 @@ Systematic approach to job applications with AI-powered interview prep, resume o
 
 ## Repository Structure
 
-### 📁 companies/
+### 📁 job_applications/
 All job applications organized by company (17 companies total). Each company has numbered role folders with:
 - **Processed folders** (for AI context): Job descriptions (formatted), interview prep guides, transcripts & analysis
 - **RAW folders** (not for AI): Original job descriptions, PDFs, audio files, resumes & cover letters
 
 **Example:** 
-- `companies/13_Scribd/1_Software_Engineer_II_Backend_Data_pipelines/` (processed)
-- `companies/13_Scribd/1_RAW_Software_Engineer_II_Backend_Data_pipelines/` (raw files)
+- `job_applications/13_Scribd/1_Software_Engineer_II_Backend_Data_pipelines/` (processed)
+- `job_applications/13_Scribd/1_RAW_Software_Engineer_II_Backend_Data_pipelines/` (raw files)
 
-### 📚 _reference/
+### 📚 _references/
 Guidance documents and instructions:
 - `commit_message_guidance.md` - Git commit standards
 - `CURSOR_CONTEXT_NOTES.md` - AI assistant context

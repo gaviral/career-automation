@@ -23,10 +23,10 @@ def restructure_raw_folders():
     3. Delete empty _RAW/ subfolder
     """
     base_dir = Path(__file__).resolve().parent.parent  # career-automation root
-    companies_dir = base_dir / 'companies'
+    job_applications_dir = base_dir / 'job_applications'
     
-    if not companies_dir.exists():
-        print(f"Error: {companies_dir} does not exist")
+    if not job_applications_dir.exists():
+        print(f"Error: {job_applications_dir} does not exist")
         return
     
     results = {
@@ -36,7 +36,7 @@ def restructure_raw_folders():
     }
     
     # Find all job role folders with _RAW subfolders
-    for company_folder in sorted(companies_dir.iterdir()):
+    for company_folder in sorted(job_applications_dir.iterdir()):
         if not company_folder.is_dir():
             continue
         
@@ -54,7 +54,7 @@ def restructure_raw_folders():
             
             raw_subfolder = role_folder / '_RAW'
             if not raw_subfolder.exists() or not raw_subfolder.is_dir():
-                results['skipped'].append(str(role_folder.relative_to(companies_dir)))
+                results['skipped'].append(str(role_folder.relative_to(job_applications_dir)))
                 continue
             
             # Check if _RAW has any files
@@ -62,7 +62,7 @@ def restructure_raw_folders():
             if not raw_files:
                 print(f"  • {role_folder.name}: _RAW is empty, deleting...")
                 raw_subfolder.rmdir()
-                results['skipped'].append(str(role_folder.relative_to(companies_dir)))
+                results['skipped'].append(str(role_folder.relative_to(job_applications_dir)))
                 continue
             
             # Create sibling _RAW folder name
@@ -87,8 +87,8 @@ def restructure_raw_folders():
                 
                 print(f"  ✓ {role_folder.name}: Moved {moved_count} files to {raw_role_name}/")
                 results['processed'].append({
-                    'role': str(role_folder.relative_to(companies_dir)),
-                    'raw_folder': str(raw_role_folder.relative_to(companies_dir)),
+                    'role': str(role_folder.relative_to(job_applications_dir)),
+                    'raw_folder': str(raw_role_folder.relative_to(job_applications_dir)),
                     'files': moved_count
                 })
                 

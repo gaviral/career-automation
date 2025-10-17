@@ -7,7 +7,7 @@
 
 ## Problem Statement
 
-The `_companies/` folder contains extensive interview prep materials, transcripts, analyses, and documentation across 17+ companies. When AI assistants (like this one) need context about a specific company, they must read many large files, consuming significant tokens. This:
+The `job_applications/` folder contains extensive interview prep materials, transcripts, analyses, and documentation across 17+ companies. When AI assistants (like this one) need context about a specific company, they must read many large files, consuming significant tokens. This:
 
 1. **Slows down AI responses** (more files to read)
 2. **Increases costs** (token usage)
@@ -128,7 +128,7 @@ The `_companies/` folder contains extensive interview prep materials, transcript
 **Actions:**
 1. Identify companies with low priority (rejected, no response, old applications)
 2. Create `_archive/companies_inactive/` folder
-3. Move low-priority companies there (still accessible but not in main `_companies/`)
+3. Move low-priority companies there (still accessible but not in main `job_applications/`)
 4. Criteria: No interview in 2+ months, rejected, or deprioritized
 
 **Output:** Reduced active company count, cleaner focus
@@ -138,7 +138,7 @@ The `_companies/` folder contains extensive interview prep materials, transcript
 ## Success Metrics
 
 ### Quantitative:
-- **Token reduction:** 40-60% decrease in total tokens across `_companies/`
+- **Token reduction:** 40-60% decrease in total tokens across `job_applications/`
 - **File count:** 30-50% fewer files in active company folders
 - **Summary coverage:** 100% of active applications have company summary
 

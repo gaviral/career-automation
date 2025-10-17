@@ -19,10 +19,10 @@ def organize_assets():
     2. Move raw files (Task_1_raw_jd.txt, *.txt, PDFs, audio, images) from Role/ to Role_RAW/
     """
     base_dir = Path(__file__).resolve().parent.parent  # career-automation root
-    companies_dir = base_dir / 'companies'
+    job_applications_dir = base_dir / 'job_applications'
     
-    if not companies_dir.exists():
-        print(f"Error: {companies_dir} does not exist")
+    if not job_applications_dir.exists():
+        print(f"Error: {job_applications_dir} does not exist")
         return
     
     # File extensions to move to RAW folders
@@ -48,7 +48,7 @@ def organize_assets():
     }
     
     # Find all job role folders (skip _RAW folders)
-    for company_folder in sorted(companies_dir.iterdir()):
+    for company_folder in sorted(job_applications_dir.iterdir()):
         if not company_folder.is_dir():
             continue
         
@@ -119,7 +119,7 @@ def organize_assets():
     print("CLEANUP: Checking for empty RAW folders...")
     print("="*70)
     
-    for company_folder in sorted(companies_dir.iterdir()):
+    for company_folder in sorted(job_applications_dir.iterdir()):
         if not company_folder.is_dir():
             continue
         
